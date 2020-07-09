@@ -4,7 +4,7 @@
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
 
-# Repository Title Goes Here
+# CARMENES input catalogue of M dwarfs. V. Luminosities, colours, and spectral energy distributions.
 
 > Subtitle or Short Description Goes Here
 
