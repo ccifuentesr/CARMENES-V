@@ -3,7 +3,13 @@
 
 <arXiv link available soon>
   
-The code files presented here can produce all figures and tables included in Cifuentes et al. 2020. They can be run as Python Notebooks.
+> This repository contains all pieces of code necessary to produce all figures and tables in Cifuentes et al. 2020 (<link>). 
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Publication](https://img.shields.io/badge/Published%3F-waiting-orange.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/ccifuentesr)
 
 This repository is structured as follows:
 
@@ -15,75 +21,13 @@ Directory ./Spectra: Includes synthetic spectra...
 Directory ./Stars: Includes data for individual stars to produce SED in some of the diagrams.
 
 
-Main IPython notebook ./HZ_exo.ipynb: Necessary to reproduce all the figures from the paper. This comprises the following: habitability zones from the one-dimensional radiative transfer equation (not included in the paper), interpolations to find k2, Q and lambda for all the exoplanets in our sample, Figure 2, exomoon stability and migration, Figure 4, Figure 3, exomoon detection by radial velocity (not included in the paper), Figure 1, tidal-locking timescale calculations, and Figure 5 (limit for for the exomoon migration timescale using a_Roche and a_crit).
-
-Directory ./data_Kop: Includes habitability zone boundaries from Kopparapu et al. (2014) (see https://ui.adsabs.harvard.edu/abs/2014ApJ...787L..29K/abstract).
-
-Directory ./Input_tables: Includes tables with stellar and planetary data (see Appendix A in the paper), as well as a table with stellar data from the literature (see Figure 1 in the paper), and tidal locking timescales for each potentially habitable exoplanet-exomoon system in our sample.
-
-Directory ./Output_tables: Information about all the potentially habitable exoplanet-exomoon systems in our sample for the two cases discussed in the paper, P0=Porb (see Table 4 in the paper) and P0=3h.
-
-
-> Subtitle or Short Description Goes Here
-
-> ideally one sentence
-
-> include terms/tags that can be searched
-
-**Badges will go here**
-
-- build status
-- issues (waffle.io maybe)
-- devDependencies
-- npm package
-- coverage
-- slack
-- downloads
-- gitter chat
-- license
-- etc.
-
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![Publication](https://img.shields.io/badge/Published%3F-waiting-orange.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/ccifuentesr)
-
-- For more on these wonderful ~~badgers~~ badges, refer to <a href="http://badges.github.io/badgerbadgerbadger/" target="_blank">`badgerbadgerbadger`</a>.
-
-***INSERT ANOTHER GRAPHIC HERE***
-
-[![INSERT YOUR GRAPHIC HERE](http://i.imgur.com/dt8AUb6.png)]()
-
-- Most people will glance at your `README`, *maybe* star it, and leave
-- Ergo, people should understand instantly what your project is about based on your repo
-
-> Tips
-
-- HAVE WHITE SPACE
-- MAKE IT PRETTY
-- GIFS ARE REALLY COOL
-
-> GIF Tools
-
-- Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
-- For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
-
-**Recordit**
-
-![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
-
-**ttystudio**
-
-![ttystudio GIF](https://raw.githubusercontent.com/chjj/ttystudio/master/img/example.gif)
 
 ---
 
-## Table of Contents (Optional)
-
-> If your `README` has a lot of info, section headers might be nice.
+## Table of Contents
 
 - [Installation](#installation)
+- [Structure](#structure)
 - [Features](#features)
 - [Contributing](#contributing)
 - [Team](#team)
@@ -91,32 +35,19 @@ Directory ./Output_tables: Information about all the potentially habitable exopl
 - [Support](#support)
 - [License](#license)
 
-
----
-
-## Example (Optional)
-
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
-```
-
 ---
 
 ## Installation
 
-- All the `code` required to get started
-- Images of what it should look like
+> The files are self-contained, self-consistent, homogenoeusly formatted, fairly self-explanatory.
+
+- The code is provided as `*.py` files meant to be run individually.
+- They can be run as Python Notebooks. The symbol `# %%` starts a cell that can be run separately.
+- Some code requires of the data stored in folders stored in the repository.
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
+- Clone this repo to your local machine using `https://github.com/ccifuentesr/CARMENES-V`
 
 ### Setup
 
@@ -135,8 +66,6 @@ $ brew install fvcproductions
 $ npm install
 $ bower install
 ```
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
 
 ---
 
@@ -172,43 +101,20 @@ $ bower install
 
 ---
 
-## Team
-
-> Or Contributors/People
-
-| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> |
-| :---: |:---:| :---:|
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
-| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
-
-- You can just grab their GitHub profile image URL
-- You should probably resize their picture using `?s=200` at the end of the image URL.
-
----
 
 ## FAQ
 
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
+- **FAQ questions?**
+    - Under construction.
 
 ---
 
 ## Support
 
-Reach out to me at one of the following places!
+Reach out to me:
 
-- Website at <a href="http://fvcproductions.com" target="_blank">`fvcproductions.com`</a>
-- Twitter at <a href="http://twitter.com/fvcproductions" target="_blank">`@fvcproductions`</a>
-- Insert more social links here.
-
----
-
-## Donations (Optional)
-
-- You could include a <a href="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png" target="_blank">Gratipay</a> link as well.
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/fvcproductions/)
-
+- E-mail at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.inta-csic.es`</a>
+- Website at <a href="http://aplaceformyhead.es" target="_blank">`aplaceformyhead.es`</a>
 
 ---
 
@@ -217,4 +123,23 @@ Reach out to me at one of the following places!
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2015 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
+
+---
+
+[![INSERT YOUR GRAPHIC HERE](http://i.imgur.com/dt8AUb6.png)]()
+> GIF Tools
+
+- Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
+- For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
+
+**Recordit**
+
+![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
+
+**ttystudio**
+
+![ttystudio GIF](https://raw.githubusercontent.com/chjj/ttystudio/master/img/example.gif)
+
+
+- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
+
