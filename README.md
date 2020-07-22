@@ -9,8 +9,6 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/ccifuentesr)
 
----
-
 ## Table of Contents
 
 - [Installation](#installation)
@@ -110,8 +108,8 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` define the kind of outpu
 |	cif20.VOSA_input_generator.py	|	Generates an ASCII file from a set of photometric data, compatible with the VOSA input format.	|	Mags, d |	A VOSA compatible .txt with all stars. |
 
 1. <small id="f1"> Lbol = bolometric luminosity (Lsol); Teff = effective temperature (K); M = mass (Msol); R = radius (Rsol); logg = surface gravity (dex); 	[Fe/H] = metallicity (dex); d = distance (pc); Plx = parallax (mas); RA, DE = equatorial coordinates in the J2000 equinox; 'mag' = magnitudes. Uncertainties are almost always used as an input, but they are omitted here for simplicity. Also, spectral types are almost always needed to colour-code the scatter plots. </small> [↩](#a1) 
-2. <small id="f2"> Spectral types in numerical form: K5V = -2, K7V = -1, M0.0 = 0.0, and so on. </small> [↩](#a2)
-3. <small id="f3"> Now available in the <a href="https://gea.esac.esa.int/archive/" target="_blank">*Gaia* Archive</a>. </small> [↩](#a3)
+2. <small id="f2"> Now available in the <a href="https://gea.esac.esa.int/archive/" target="_blank">*Gaia* Archive</a>. </small> [↩](#a2)
+3. <small id="f3"> Spectral types in numerical form: K5V = -2, K7V = -1, M0.0 = 0.0, and so on. </small> [↩](#a3)
 
 ### Mother: the master table
 
