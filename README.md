@@ -3,7 +3,7 @@
 
 <arXiv link available soon>
   
-> This repository contains all pieces of code necessary to produce all figures and tables in Cifuentes et al. 2020 (<link>). 
+> This repository contains the pieces of code necessary to produce all figures, tables and models in Cifuentes et al. 2020. 
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
@@ -31,19 +31,20 @@
 
 - The code is provided as `*.py` files meant to be run individually.
 - They can be run as Python Notebooks. The symbol `# %%` starts a cell that can be run separately.
-- Some code requires of the data stored in folders stored in the repository.
+- Some files requires of additional data contained in the folders stored in the repository.
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/ccifuentesr/CARMENES-V`
+- Clone this repo to your local machine using `https://github.com/ccifuentesr/CARMENES-V`.
+- K
 
 
 ## Structure
 
 ### Directories
 
-- Directory ./: Includes all the code files classified as detailed below.
-- Directory ./Baraffe: (see https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..42B/)
+- Directory ./: Includes all the code files classified as detailed below and the master table (`Mother.v01.csv`).
+- Directory ./Baraffe: (see https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..42B/).
 - Directory ./Filters: Includes the data to reproduce the transmission curves for 20 filters (FUV to W4). 
 - Directory ./Literature: Includes the individual tables with data from the literature.
 - Directory ./Spectra: Includes synthetic spectra...
@@ -79,7 +80,7 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` define the kind of outpu
 |	cif20.plot_literature_LR_Teff.py	|	Plots Luminosity or Radius vs. Teff diagram plus Rabus+18 alleged discontinuity, alsong with Baraffe’s isochrones BCAH98 and DUSTY00.	|	Lbol, Teff. Baraffe’s isochrones.	|	-	|	
 |	cif20.plot_literature_LTMR.py	|		Plots comparing Luminosity, Effective Temperature, Mass or Radius values with literature (many references, see main text in the article).	|	Lbol, Teff.	| Figure X |
 |	cif20.plot_literature_LT.py	|	Plots Lbol vs. Teff diagram plus literature values (Pecaut+13, Newton+15, Faherty+16).	|	Lbol, Teff |	Figure X	|	
-|	cif20.plot_literature_Mabs_colour.py	|	Plots MJ vs. J-Ks diagram plus literature values (Lepine+11,13, Knapp+14).	|	JKs mag, d	| Figure X |
+|	cif20.plot_literature_Mabs_colour.py	|	Plots MJ vs. J-Ks diagram plus literature values (Lepine+11,13, Knapp+04).	|	JKs mag, d	| Figure X |
 |	cif20.plot_literature_Mabs_SpT.py	|	Plots MJ vs. SpT diagram plus literature values (Hawley+02, Kiman+19).	|	J mag, d, SpTnum	|	 Figure X	|	
 |	cif20.plot_literature_Mabs_Teff.py	|	Plots MJ vs. Teff diagram plus literature values (Dahn+02, Lepine+14, Gaidos+14).	|	J mag, d, Teff	|	 Figure X	|
 |	cif20.plot_literature_Mass.py	|	Plots a comparison of masses from this work vs. values derived from MKs-Mass literature models (Delfosse+00, Benedict+16, Mann+19).	|	Ks mag, d, Lbol, Teff	| Figure X |
@@ -95,7 +96,6 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` define the kind of outpu
 |	cif20.plot_model_Mabs_Lbol_meta.py	|	Plots Luminosity vs. MG or MJ colour-coded by metallicity and fits a polynomial.	|	J mag, d, Lbol |	Figure X, Table 5. |
 |	cif20.plot_model_Mabs_colour.py	|	Plots MG vs. G-J or Mr vs. r-J and fits a polynomial.	|	GJr mag, d |	Figure X, Table 5, Minitool: Parsecator™	|
 |	cif20.plot_model_Mabs_Lbol.py	|	Plots Luminosity vs. MG or MJ and fits two polynomials (2 ranges).|	GJ mag, d, Lbol	|	Figure X, Table 5, Minitool: Parsecator™ |
-|	cif20.plot_model_spectrum.py	|	Plots the synthetic spectrum.	|	Synthetic spectrum (lambda vs. flux)	|	Figure	|	Plots the synthetic spectrum.
 |	cif20.plot_standalone_cbar.py	|	Produces a standalone colorbar with the selected colormap.	|	A <a href="https://matplotlib.org/3.1.1/gallery/color/colormap_reference.html" target="_blank">colormap</a>  |	Figures X and Y	|	
 |	cif20.plot_BC_colour.py	|	Plots BC vs. G-J for every passband (FUV...W4) in a single canvas. | FUV to W4 mag, d, Lbol |	Figure X	|
 |	cif20.plot_colour_Teff.py	|	Plots G-RP vs. Teff diagram with average values.	|	GRP mag, Teff	|	Figure X	|
@@ -107,7 +107,6 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` define the kind of outpu
 |	cif20.plot_SED.py	|	Plots observed and theoretical SED on top of a PHOENIX synthetic spectrum.	|	Spectrum, transmission curves for the filters, sample stellar SED	|	Figure X	|	
 |	cif20.plot_skymap.py	|	Plots with the equatorial or galactic positions of the stars in the J2000 equinox.	|	RA, DE	|	Figure X	|	
 |	cif20.plot_filters.py	|	Plots a sample SED on top of the transmission curves of NUV-W4 passbands.	|	Transmission curves for the filters, sample stellar SED	|	Figure	X |	
-|	cif20.plot_filters_alt.py	|	Plots a sample SED on top of a PHOENIX synthetic spectrum. 	Plots a sample SED [passband] on top of a PHOENIX synthetic spectrum.	|	Transmission curves for the filters, PHOENIX synthetic spectrum	|	Figure	X |
 |	cif20.plot_Lbol_Teff.py	|	Plots luminosity vs. Teff. with young stars shown in different colour. |	Lbol, Teff	|	Figure	X |	
 |	cif20.plot_colour_excess.py	|	Plots *Gaia* DR2 excess factor vs. BP - RP with the colour excess limits from Evans+18 plotted.	|	BP RP magnitudes, *Gaia* DR2 `phot_bp_rp_excess_factor`	|	- |
 |	cif20.table_generator.py	|	Produces Tables 6, 7 and 8. Plots mean values of Teff, Lbol, Mass, Radius.	|	All parameters in Tabes 6-8.	|	Tables 6, 7 and 8 in TeX format, ready to paste. Figures X and Y |
@@ -117,6 +116,9 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` define the kind of outpu
 2. <small id="f2"> Spectral types in numerical form: K5V = -2, K7V = -1, M0.0 = 0.0, and so on. </small> [↩](#a2)
 3. <small id="f3"> Now available in the <a href="https://gea.esac.esa.int/archive/" target="_blank">*Gaia* Archive</a>. </small> [↩](#a3)
 
+### Mother: the master table
+
+`Mother.v01.csv` is the full version of the table associated to Cifuentes et al. 2020 and stored in [link to CDS]. It contains XXXX rows and YYY columns. A complete description can be found below.
 
 ---
 
@@ -142,6 +144,8 @@ Reach out to me:
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 
+---
+
 ## Suggested Resources
 
 - <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
@@ -154,14 +158,4 @@ Reach out to me:
 - Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
 - For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
 
-**Recordit**
-
-![Recordit GIF](http://g.recordit.co/iLN6A0vSD8.gif)
-
-**ttystudio**
-
-![ttystudio GIF](https://raw.githubusercontent.com/chjj/ttystudio/master/img/example.gif)
-
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
 
