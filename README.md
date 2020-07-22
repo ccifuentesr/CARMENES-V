@@ -1,7 +1,5 @@
 # CARMENES input catalogue of M dwarfs. 
 ## V. Luminosities, colours, and spectral energy distributions.
-
-<arXiv link available soon>
   
 > This repository contains the pieces of code necessary to produce all figures, tables and models in Cifuentes et al. 2020. 
 
@@ -46,10 +44,10 @@
 
 - Directory ./: Includes all the code files classified as detailed below and the master table (`Mother.v01.csv`).
 - Directory ./Baraffe: (see https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..42B/).
-- Directory ./Filters: Includes the data to reproduce the transmission curves for 20 filters (FUV to W4). 
+- Directory ./Filters: Includes the transmission curves for 20 filters (FUV to W4). 
 - Directory ./Literature: Includes the individual tables with data from the literature.
-- Directory ./Spectra: Includes synthetic spectra...
-- Directory ./Stars: Includes data for individual stars to produce SED in some of the diagrams.
+- Directory ./Spectra: Includes PHOENIX synthetic spectra.
+- Directory ./Stars: Includes data for individual stars to produce custom SEDs.
 
 ### Files
 
@@ -119,7 +117,10 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` define the kind of outpu
 
 ### Mother: the master table
 
-`Mother.v01.csv` is the full version of the table associated to Cifuentes et al. 2020 and stored in [link to CDS]. It contains XXXX rows and YYY columns. A complete description can be found below.
+`Mother.v01.csv` is the full version of the table associated to Cifuentes et al. 2020 and stored in [link to CDS]. It contains 2486 rows and 183 columns.
+
+* First version: v01 (July 2020)
+* Current version: v01 (July 2020)
 
 ---
 
@@ -153,10 +154,5 @@ Reach out to me:
 
 ---
 
-[![INSERT YOUR GRAPHIC HERE](http://i.imgur.com/dt8AUb6.png)]()
-> GIF Tools
-
-- Use <a href="http://recordit.co/" target="_blank">**Recordit**</a> to create quicks screencasts of your desktop and export them as `GIF`s.
-- For terminal sessions, there's <a href="https://github.com/chjj/ttystudio" target="_blank">**ttystudio**</a> which also supports exporting `GIF`s.
-
+[![Usage](http://g.recordit.co/Oewfwlqsrc.gif)]()
 
