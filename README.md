@@ -15,7 +15,6 @@
 
 - [Installation](#installation)
 - [Structure](#structure)
-- [Features](#features)
 - [FAQ](#faq)
 - [Support](#support)
 - [License](#license)
@@ -34,9 +33,7 @@
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/ccifuentesr/CARMENES-V`.
-- K
-
+- Clone this repo to your local machine using `git clone https://github.com/ccifuentesr/CARMENES-V`.
 
 ## Structure
 
@@ -122,21 +119,21 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` define the kind of outpu
 * First version: v01 (July 2020)
 * Current version: v01 (July 2020)
 
+(Row-by-row description of the table available here).
+
 ---
 
 ## FAQ
 
-- **FAQ questions?**
+- **FAQ?**
     - Under construction.
 
 ---
 
 ## Support
 
-Reach out to me:
-
-- E-mail at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.inta-csic.es`</a>
-- Website at <a href="http://aplaceformyhead.es" target="_blank">`aplaceformyhead.es`</a>
+Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.inta-csic.es`</a>.
+<Website at <a href="http://aplaceformyhead.es" target="_blank">`aplaceformyhead.es`</a>>
 
 ---
 
