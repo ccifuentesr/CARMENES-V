@@ -11,17 +11,6 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/ccifuentesr)
 
-This repository is structured as follows:
-
-Directory ./<filename>.py: Includes all the code files classified as detailed below.
-Directory ./Baraffe: (see https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..42B/)
-Directory ./Filters: Includes the data to reproduce the transmission curves for 20 filters (FUV to W4). 
-Directory ./Literature: Includes the individual tables with data from the literature.
-Directory ./Spectra: Includes synthetic spectra...
-Directory ./Stars: Includes data for individual stars to produce SED in some of the diagrams.
-
-
-
 ---
 
 ## Table of Contents
@@ -49,58 +38,30 @@ Directory ./Stars: Includes data for individual stars to produce SED in some of 
 
 - Clone this repo to your local machine using `https://github.com/ccifuentesr/CARMENES-V`
 
-### Setup
 
-- If you want more syntax highlighting, format your code like this:
+## Structure
 
-> update and install this package first
+### Directories
 
-```shell
-$ brew update
-$ brew install fvcproductions
-```
+- Directory ./<filename>.py: Includes all the code files classified as detailed below.
+- Directory ./Baraffe: (see https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..42B/)
+- Directory ./Filters: Includes the data to reproduce the transmission curves for 20 filters (FUV to W4). 
+- Directory ./Literature: Includes the individual tables with data from the literature.
+- Directory ./Spectra: Includes synthetic spectra...
+- Directory ./Stars: Includes data for individual stars to produce SED in some of the diagrams.
 
-> now install npm and bower packages
+### Files
 
-```shell
-$ npm install
-$ bower install
-```
+All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` define the kind of output that it produces, `yyy` gives additional information about the output, and `zzz` enumerates the main variables involved. For example, the script `cif20.plot_literature_Mabs_SpT.py` produces an absolute magnitude vs. spectral type plot, and compares the values with those of the literature. The complete list of files and their description can be found below.
 
----
 
-## Features
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
+| File | Input | Output |
+| :---         |     :---:      |          ---: |
+| cif20.calculator_averagecolors.py | Magnitudes from FUV to W4. |	Average colours and standard deviations for each spectral type from K5V to L8. |
+| ... | ... | ... |
 
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
 
 ---
-
-## Contributing
-
-> To get started...
-
-### Step 1
-
-- **Option 1**
-    - 🍴 Fork this repo!
-
-- **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
-
-### Step 2
-
-- **HACK AWAY!** 🔨🔨🔨
-
-### Step 3
-
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
-
----
-
 
 ## FAQ
 
@@ -123,6 +84,10 @@ Reach out to me:
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
+
+## Suggested resources
+
+- <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
 
 ---
 
