@@ -15,7 +15,6 @@
 
 - [Installation](#installation)
 - [Structure](#structure)
-- [FAQ](#faq)
 - [Support](#support)
 - [License](#license)
 - [Suggested Resources](#resources)
@@ -118,17 +117,11 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` define the kind of outpu
 
 `Mother.v01.csv` is the full version of the table associated to Cifuentes et al. 2020 and stored in [link to CDS]. It contains 2486 rows and 183 columns.
 
-* First version: v01 (July 2020)
-* Current version: v01 (July 2020)
+- Versions
+  - First: v01 (July 2020)
+  - Current: v01 (July 2020)
 
 (Row-by-row description of the table available here).
-
----
-
-## FAQ
-
-- **FAQ?**
-    - Under construction.
 
 ---
 
