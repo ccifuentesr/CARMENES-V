@@ -65,20 +65,18 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` define the kind of outpu
 |	cif20.histogram_logg.py	|	Produces a histogram of log g.	|	logg	|	Figure	X |
 |	cif20.histogram_luminosities .py	|	Produces a histogram of luminosities.	|	Lbol	|	Figure	X |
 |	cif20.histogram_magnitudes.py	|	Produces a histogram of magnitudes for each passband.	|	Magnitudes from FUV to W4	|	Figure	X |
-|	cif20.histogram_RUWE.py	|	Produces a histogram of RUWE.	|	RUWE<sup id="a2">[1](#f2)</sup>	|	Figure	X |
-|	cif20.histogram_SpT.py	|	Histogram of spectral types.	|	 SpTnum<sup id="a3">[1](#f3)</sup>	|	Figure	X |
+|	cif20.histogram_RUWE.py	|	Produces a histogram of RUWE.	|	RUWE<sup id="a2">[2](#f2)</sup>	|	Figure	X |
+|	cif20.histogram_SpT.py	|	Histogram of spectral types.	|	 SpTnum<sup id="a3">[3](#f3)</sup>	|	Figure	X |
 |	cif20.histogram_Teff.py	|	Produces a histogram of effective temperatures.	|	Teff	|	Figure	X |
 |	cif20.plot_appendix_colour_colour.py	|	Plots color vs. colour for Appendix.	|	Pairs of selected magnitudes.	|	Figure A.1. 	|	Plots colour vs. colour [SpT].
 |	cif20.plot_appendix_colour_SpT.py	|	Plots color vs. SpT for Appendix.	|	Pairs of selected magnitudes.	|	Figure A.2. 	|	Plots colour vs. SpT [Teff].
-|	cif20.plot_binaries_deltaG.py	|	Plots ∆G vs. rho for binary stars resolved by *Gaia* DR2.	|	G mag, RA, DE	|	Figure	X |
+|	cif20.plot_binaries_deltaG.py	|	Plots ∆G vs. ρ for binary stars resolved by *Gaia* DR2.	|	G mag, RA, DE	|	Figure	X |
 |	cif20.plot_binaries_distances.py	|	Plots a comparison of parallaxes for primary and secondary components of binary systems (physical or not) resolved by *Gaia* DR2.	|	Plx	|	Figure	X |
-|	cif20.plot_box_meta.py	|	Plots box & whiskers diagram comparing VOSA's BT-Settl agains metallicity values from the literature.	|	[Fe/H] |	Figure	X |	
-
-| ... | ... | ... | ... |
+|	cif20.plot_box_meta.py	|	Plots box & whiskers diagram comparing VOSA's BT-Settl against metallicity values from the literature.	|	[Fe/H] |	Figure	X |	
 
 1. <small id="f1"> Lbol = bolometric luminosity (Lsol); Teff = effective temperature (K); M = mass (Msol); R = radius (Rsol); logg = surface gravity (dex); 	[Fe/H] = metallicity (dex); d = distance (pc); Plx = parallax (mas); RA, DE = equatorial coordinates in the J2000 equinox. Uncertainties are almost always used as an input, but they are omitted here for simplicity. Also, spectral types are almost always needed to colour-code the scatter plots. </small> [↩](#a1) 
 2. <small id="f2"> Spectral types in numerical form: K5V = -2, K7V = -1, M0.0 = 0.0, and so on. </small> [↩](#a2)
-3. <small id="f3"> Now available at the <a href="https://gea.esac.esa.int/archive/" target="_blank">*Gaia* Archive</a>. </small> [↩](#a3)
+3. <small id="f3"> Now available in the <a href="https://gea.esac.esa.int/archive/" target="_blank">*Gaia* Archive</a>. </small> [↩](#a3)
 
 
 Note: 
