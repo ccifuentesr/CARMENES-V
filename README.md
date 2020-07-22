@@ -26,6 +26,8 @@
 
 > The files are self-contained, self-consistent, homogenoeusly formatted, fairly self-explanatory.
 
+[![Usage](https://recordit.co/hk2NGlYt58)]()
+
 - The code is provided as `*.py` files meant to be run individually.
 - They can be run as Python Notebooks. The symbol `# %%` starts a cell that can be run separately.
 - Some files requires of additional data contained in the folders stored in the repository.
@@ -148,8 +150,3 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 ## Suggested Resources
 
 - <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
-
----
-
-[![Usage](http://g.recordit.co/Oewfwlqsrc.gif)]()
-
