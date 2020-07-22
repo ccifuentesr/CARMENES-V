@@ -55,7 +55,7 @@
 All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` define the kind of output that it produces, `yyy` gives additional information about the output, and `zzz` enumerates the main variables involved. For example, the script `cif20.plot_literature_Mabs_SpT.py` produces an absolute magnitude vs. spectral type plot, and compares the values with those of the literature. The complete list of files and their description can be found below.
 
 | File | Description | Input<sup id="a1">[1](#f1)</sup>| Output | 
-| --- | --- | --- | 
+| --- | --- | --- | --- | 
 | cif20.calculator_averagecolors.py | Average colours and standard deviations for each spectral type from K5V to L8. | Magnitudes from FUV to W4. | Table A.2 |
 | cif20.calculator_Karmn.py | A generator of Carmencita identification name (Karmn JHHMMm+DDdAAA). | Simbad valid name. | Karmn ID |
 |	cif20.calculator_MR.py	|	Calculator of mass and radius in solar units.	|	Lbol, Teff.	|	... |	
