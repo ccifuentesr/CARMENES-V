@@ -23,7 +23,7 @@
 
 > The files are self-contained, self-consistent, homogenoeusly formatted, fairly self-explanatory.
 
-[![Usage](https://github.com/ccifuentesr/CARMENES-V/code.png)]()
+[![Usage](https://github.com/ccifuentesr/CARMENES-V/blob/master/code.png)]()
 
 - The code is provided as `*.py` files meant to be run individually.
 - They can be run as Python Notebooks. The symbol `# %%` starts a cell that can be run separately.
