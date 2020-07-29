@@ -45,6 +45,8 @@
 - Directory ./Spectra: Includes PHOENIX synthetic spectra. [1 item, 44.1 MB]
 - Directory ./Stars: Includes data for individual stars to produce custom SEDs. [4 items, 20 KB]
 
+The total size is 51 MB. If the `./Spectra` directory is not needed, the size shrinks to less than 7 MB.
+
 ### Files
 
 All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of output that it produces, `yyy` gives additional information about the output, and `zzz` enumerates the main variables involved. For example, the script `cif20.plot_literature_Mabs_SpT.py` produces an absolute magnitude vs. spectral type plot, and compares the values with those of the literature. The complete list of files and their description can be found below.
@@ -55,7 +57,6 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 | cif20.calculator_Karmn.py | A generator of Carmencita identification name (Karmn JHHMMm+DDdAAA). | Simbad valid name | Karmn ID |
 |	cif20.calculator_MR.py	|	Calculator of mass and radius in solar units.	|	Lbol, Teff	|	... |	
 |	cif20.calculator_completeness.py |	Estimator of the completeness in volume of the sample.	|	d	|	... |
-
 |	cif20.histogram_completeness.py	|	A graphical representation of the completeness of the photometric sample in relation to 2MASS J.	|	Magnitudes from FUV to W4 |	Figure X	|	
 |	cif20.histogram_distance.py	|	Produces a histogram of distances.	|	d	|	Figure	X |
 |	cif20.histogram_logg.py	|	Produces a histogram of log g.	|	logg	|	Figure	X |
@@ -64,7 +65,6 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 |	cif20.histogram_RUWE.py	|	Produces a histogram of RUWE.	|	RUWE<sup id="a2">[2](#f2)</sup>	|	Figure	X |
 |	cif20.histogram_SpT.py	|	Histogram of spectral types.	|	 SpTnum<sup id="a3">[3](#f3)</sup>	|	Figure	X |
 |	cif20.histogram_Teff.py	|	Produces a histogram of effective temperatures.	|	Teff	|	Figure	X |
-
 |	cif20.plot_appendix_colour_colour.py	|	Plots color vs. colour for Appendix.	|	Pairs of selected magnitudes.	|	Figure A.1. |
 |	cif20.plot_appendix_colour_SpT.py	|	Plots color vs. SpT for Appendix.	|	Pairs of selected magnitudes.	|	Figure A.2.	|
 |	cif20.plot_BC_colour.py	|	Plots BC vs. G-J for every passband (FUV...W4) in a single canvas. | FUV to W4 mag, d, Lbol |	Figure X	|
@@ -128,7 +128,6 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 ## Support
 
 Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.inta-csic.es`</a>.
-<Website at <a href="http://aplaceformyhead.es" target="_blank">`aplaceformyhead.es`</a>>
 
 ---
 
