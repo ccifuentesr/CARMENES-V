@@ -27,8 +27,8 @@
 
 - The code is provided as `*.py` files meant to be run individually.
 - They can be run as Python Notebooks. The symbol `# %%` starts a cell that can be run separately.
-- Some files requires of additional data contained in the folders stored in the repository.
-- The installation of basic libraries such as `numpy` is a prerequisite. 
+- Some files require of additional data contained in the folders stored in the repository.
+- The installation of some basic libraries is a prerequisite: `numpy`, `scipy`, `astropy`, `matplotlib` and `pyperclip`. Other modules are included in the Python distribution and do not need additional installation (e.g., `csv`).
 
 ### Clone
 
