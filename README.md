@@ -244,7 +244,7 @@ Row-by-row description of `Mother.v01.csv` available below.
 |	116	|	FeH_lit	|	dex	|	Metallicity from the literature	|		|
 |	117	|	eFeH_lit	|	dex	|	Metallicity error from the literature	|		|
 |	118	|	FeH_lit_ref 	|	-	|	Metallicity reference	|		|
-|	119	|	Binarity	|	-	|	Kind of multiplicity for this object	|	New’ are candidates not tabulated by the WDS; ‘Known’ are binaries tabulated by the WDS; ‘Background’ are candidates for visual binaries without physical binding.	|
+|	119	|	Binarity	|	-	|	Kind of multiplicity for this object	|	New’ are candidates not tabulated by the WDS; ‘Known’ are binaries tabulated by the WDS; ‘Background’ are candidates for visual binaries without physical binding	|
 |	120	|	rho	|	arcsec	|	Angular separation with the closest component in multiple systems	|		|
 |	121	|	theta	|	deg	|	Position angle	|		|
 |	122	|	RUWE	|	-	|	Re-normalised Unit Weight Error	|	See https://www.cosmos.esa.int/web/gaia/dr2-known-issues	|
@@ -291,7 +291,7 @@ Row-by-row description of `Mother.v01.csv` available below.
 |	163	|	phot_bp_rp_excess_factor_2	|	mag	|	*BP*/*RP* excess factor for B	|		|
 |	164	|	radial_velocity_2	|	km s-1	|	Radial velocity for B	|		|
 |	165	|	radial_velocity_error_2	|	km s-1	|	Radial velocity error for B	|		|
-|	166	|	Young_YMG	|	-	|	Young Moving Group identificator	|	‘Active’ are stars with literature references for activity; ‘Checked’ are overluminous stars in HR diagrams in which a conclusive reference for youth or activity has not been found.	|
+|	166	|	Young_YMG	|	-	|	Young Moving Group identificator	|	‘Active’ are stars with literature references for activity; ‘Checked’ are overluminous stars in HR diagrams in which a conclusive reference for youth or activity has not been found	|
 |	167	|	Young_ref	|	-	|	Young Moving Group reference	|		|
 |	168	|	Class	|	-	|	Carmencita class	|	See Alonso Floriano et al. 2015 for further information	|
 |	169	|	Sample_source	|	-	|	Source for the star	|	AF15: Alonso-Floriano et al. 2015b; Karmn: Carmencita (Alonso-Floriano et al. 2015b; Caballero et al. 2016); Kir91: Kirkpatrick et al. 1991; Lep13: Lépine et al. 2013; REC100: RECONS100 (Henry et al. 2006) ; Sma17: Smart et al. 2017	|
