@@ -129,8 +129,10 @@ Row-by-row description of ... available below.
 | --- | --- | --- | --- | 
 | 1 | - | Karmn | Star identifier (JHHMMm+DDdAAA)(1) |
 | 2 | - | Name | Discovery or most common name |
-| 3 | hms | RA | Right ascension (J2000.0) (2) |
-| 4 | dms | DE | Declination (J2000.0) (2) |
+| 3 | hms | RA_J2000 | Right ascension (J2000.0 epoch) (2) |
+| 4 | dms | DE_J2000 | Declination (J2000.0 epoch) (2) |
+| - | hms | RA_J2015 | Right ascension (J2015.5 epoch) |
+| - | dms | DE_J2015 | Declination (J2015.5 epoch) |
 | 5 | - | SpType | Spectral type |
 | 6 | - | SpTnum | Spectral type in numerical format (3) |
 | 7 | - | Ref_SpT | Reference for the spectral type |
@@ -141,7 +143,7 @@ Row-by-row description of ... available below.
 | 12 | pc | ed_pc | Distance error |
 | 13 | - | Ref_d | Reference for the distance |
 | 14 | solLum | Lbol | Bolometric luminosity from VOSA |
-| 15 | solLum | eLbol | Bolometric luminosity error from VOSA |
+| 15 | solLum | Lberr | Bolometric luminosity error from VOSA |
 | 16 | K | Teff | Effective temperature from VOSA(4) |
 | 17 | - | logg | Surface gravity from VOSA (4) |
 | 1 | solRad | Radius | Stellar radius (5) |
@@ -224,12 +226,81 @@ Row-by-row description of ... available below.
 | 95 | - | Qf_W3 | WISE W3 magnitude quality flag |
 | 96 | - | Qf_W4 | WISE W4 magnitude quality flag |
 | 97 | - | Ref_Ws | WISE W1W2W3W4 magnitude  reference (8) |
+| - | K | Teff_meta |   |
+|  | dex | logg_meta |   |
+|  | dex | Meta_meta |   |
+|  | Lsol | Lbol_meta |   |
+|  | Lsol | Lberr_meta |   |
+|  | Lsol | Lbol_lit |   |
+|  | Lsol | Lberr_lit |   |
+|  | Msol | M_lit |   |
+|  | Msol | eM_lit |   |
+|  | Rsol | R_lit |   |
+|  | Rsol | eR_lit |   |
+|  | K | Teff_lit |   |
+|  | K | eTeff_lit |   |
+|  | | Ref_LMRT |  Literature reference for Lbol, M, R and Teff |
+|  | K | Teff_Pas19 |   |
+|  | K | eTeff_Pas19  |   |
+|  | dex | FeH_lit |   |
+|  | dex | eFeH_lit |   |
+|  | - | FeH_lit_ref  |   |
+|  |  | Binarity |   |
+|  |  | rho |   |
+|  |  | theta |   |
+|  |  | RUWE |   |
 | 98 | - | gaia_id_1 | Gaia DR2 identifier of single or primary star |
+|  |  | ra_1 |   |
+|  |  | ra_error_1 |   |
+|  |  | dec_1 |   |
+|  |  | dec_error_1 |   |
+|  |  | parallax_1 |   |
+|  |  | parallax_error_1  |   |
+|  |  | pmra_1 |   |
+|  |  | pmra_error_1 |   |
+|  |  | pmdec_1 |   |
+|  |  | pmdec_error_1 |   |
+|  |  | pmtotal_1 |   |
+|  |  | pmtotal_error_1 |   |
+|  |  | phot_bp_rp_excess_factor_1 |   |
+|  |  | radial_velocity_1 |   |
+|  |  | radial_velocity_error_1 |   |
+|  |  | l_1 |   |
+|  |  | b_1 |   |
+|  |  | teff_val_1 |   |
+|  |  | lum_val_1 |   |
 | 99 | - | gaia_id_2 | Gaia DR2 identifier of secondary star in close binary system (9) |
-| 100 | - | Multiple | Boolean index for close multiple stars (separated less than 5 arcsec) |
-| 101 | - | Young | Boolean index for overluminous young stars |
-| 102 | - | RUWE | Boolean index for stars with Gaia DR2 RUWE > 1.41 |
-| 103 | - | Excess | Boolean index for stars with photometric flux excess in Gaia GBP and GRP passband |
+|  |  | ra_2 |   |
+|  |  | ra_error_2 |   |
+|  |  | dec_2 |   |
+|  |  | dec_error_2 |   |
+|  |  | parallax_2 |   |
+|  |  | parallax_error_2  |   |
+|  |  | pmra_2 |   |
+|  |  | pmra_error_2 |   |
+|  |  | pmdec_2 |   |
+|  |  | pmdec_error_2 |   |
+|  |  | pmtotal_2 |   |
+|  |  | pmtotal_error_2 |   |
+|  |  | phot_g_mean_mag_2 |   |
+|  |  | phot_g_mean_mag_error_2 |   |
+|  |  | phot_bp_mean_mag_2 |   |
+|  |  | phot_bp_mean_mag_error_2 |   |
+|  |  | phot_rp_mean_mag_2 |   |
+|  |  | phot_rp_mean_mag_error_2 |   |
+|  |  | phot_bp_rp_excess_factor_2 |   |
+|  |  | radial_velocity_2 |   |
+|  |  | radial_velocity_error_2 |   |
+|  |  | Young_YMG |   |
+|  |  | Young_ref |   |
+|  |  | Class |   |
+|  |  | Sample_source |   |
+|  |  | Bool_contam |   |
+|  |  | Bool_delta | Boolean index for close multiple stars (separated less than 5 arcsec) |
+|  |  | Bool_young | Boolean index for overluminous young stars |
+|  |  | Bool_dphot | Boolean index for stars with non-parallactic distances |
+|  |  | Bool_RUWE | Boolean index for stars with Gaia DR2 RUWE > 1.41 |
+|  |  | Bool_excess | Boolean index for stars with photometric flux excess in Gaia GBP and GRP passband |
 
 ---
 
