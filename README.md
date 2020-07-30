@@ -125,16 +125,15 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 Row-by-row description of `Mother.v01.csv` available below.
 
 |	ID	|	Name	|	Units	|	Description	|	Annotations	|
-|	---	|	---	|	---	|	---	|		|
-|	1	|	Karmn	|	-	|	Star identifier (JHHMMm+DDdAAA)	|	"For the M and L dwarfs the identifier "JHHMMm+DDdAAA" is used - plus "N" - “S” - “E" or "W" if two stars (in a close binary system) have the same  “HHMMm+DDd" string. For the K dwarfs the SUPERBLINK catalogue identifier (Lepine & Shara 2005; Lepine et al. 2013) is used. For the ultracool dwarfs we tabulate the *Gaia* UltraCool Dwarf Catalogue identifier (Smart et al. 2017; 2019).
-"	|
+|	---	|	---	|	---	|	---	|	---	|
+|	1	|	Karmn	|	-	|	Star identifier (JHHMMm+DDdAAA)	|	"For the M and L dwarfs the identifier "JHHMMm+DDdAAA" is used - plus "N" - “S” - “E" or "W" if two stars (in a close binary system) have the same  “HHMMm+DDd" string. For the K dwarfs the SUPERBLINK catalogue identifier (Lepine & Shara 2005; Lepine et al. 2013) is used. For the ultracool dwarfs we tabulate the *Gaia* UltraCool Dwarf Catalogue identifier (Smart et al. 2017; 2019).	|
 |	2	|	Name	|	-	|	Discovery or most common name 	|		|
 |	3	|	RA_J2000	|	hms	|	Right ascension (J2000.0 epoch) 	|	In equinox J2000	|
 |	4	|	DE_J2000	|	dms	|	Declination (J2000.0 epoch) 	|	In equinox J2000	|
 |	5	|	RA_J2015	|	hms	|	Right ascension (J2015.5 epoch)	|	In equinox J2000	|
 |	6	|	DE_J2015	|	dms	|	Declination (J2015.5 epoch)	|	In equinox J2000	|
 |	7	|	SpType	|	-	|	Spectral type 	|		|
-|	8	|	SpTnum	|	-	|	Spectral type in numerical format 	|	SpTnum = -2.0 for K5V ; -1.0 for K7V ; 0.0 for M0.0V ; 0.5 for M0.5V ;  … ; 10.0 for L0.0 ; 10.5 for L0.5 ; etc.	|
+|	8	|	SpTnum	|	-	|	Spectral type in numerical format 	|	SpTnum = -2.0 for K5V ; -1.0 for K7V ; 0.0 for M0.0V ; 0.5 for M0.5V ; ... ; 10.0 for L0.0 ; 10.5 for L0.5 ; etc.	|
 |	9	|	Ref_SpT	|	-	|	Reference for the spectral type 	|		|
 |	10	|	Plx	|	mas	|	Parallax 	|		|
 |	11	|	ePlx	|	mas	|	Parallax error 	|		|
@@ -301,7 +300,8 @@ Row-by-row description of `Mother.v01.csv` available below.
 |	172	|	Bool_young	|	Bool	|	Boolean index for overluminous young stars	|	 ‘true’ for stars with youth features identified in the literature	|
 |	173	|	Bool_dphot	|	Bool	|	Boolean index for stars with non-parallactic distances	|	 ‘true’ for photometric distances	|
 |	174	|	Bool_RUWE	|	Bool	|	Boolean index for stars with high *Gaia* DR2 RUWE	|	‘true’ for RUWE > 1.41 (see Arenou et al. 2018; Lindegren et al. 2018) 	|
-|	175	|	Bool_excess	|	Bool	|	Boolean index for stars with photometric flux excess in *Gaia* DR2	|	true’ for stars with excess (see Evans et al. 2018)	|
+|	175	|	Bool_excess	|	Bool	|	Boolean index for stars with photometric flux excess in *Gaia* DR2	|	'true’ for stars with excess (see Evans et al. 2018)	|
+
 **Notes:** 
 - In the description, 'B' (not *B*) should be read 'the closest component in multiple systems'.
 - In all cases, quality flags are 'true' for poor photometric quality, and 'false' for good or acceptable photometric quality. For 2MASS and WISE/AllWISE photometry, the alphabetic quality flags (of the form NNN and NNNN, respectively) are provided. In the Gaia DR2 data, the indicators `RUWE` and `phot_bp_rp_excess_factor determine the quality of their astrometric and photometric solution.
