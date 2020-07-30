@@ -26,13 +26,15 @@
 [![Usage](https://github.com/ccifuentesr/CARMENES-V/blob/master/code.png)]()
 
 - The code is provided as `*.py` files meant to be run individually.
-- They can be run as Python Notebooks. The symbol `# %%` starts a cell that can be run separately.
-- Some files require of additional data contained in the folders stored in the repository.
+- They may be run as Python Notebooks. The symbol `# %%` starts a cell that can be run separately.
+- Most of the `*.py` files require of additional data contained in the folders stored in the repository.
+- Cloning or downloading the complete repository is strongly recommended (see below).
 - The installation of some basic libraries is a prerequisite: `numpy`, `scipy`, `astropy`, `matplotlib` and `pyperclip`. Other modules are included in the Python distribution and do not need additional installation (e.g., `csv`).
 
 ### Clone
 
-- Clone this repo to your local machine using `git clone https://github.com/ccifuentesr/CARMENES-V`.
+- Clone this repo to your local machine using `git clone https://github.com/ccifuentesr/CARMENES-V`, or
+- Download this repo as a .zip and run the scripts in your local machine.
 
 ## Structure
 
@@ -45,7 +47,7 @@
 - Directory ./Spectra: Includes PHOENIX synthetic spectra. [1 item, 44.1 MB]
 - Directory ./Stars: Includes data for individual stars to produce custom SEDs. [4 items, 20 KB]
 
-The total size is 51 MB. If the `./Spectra` directory is not needed, the size shrinks to less than 7 MB.
+The total size is 51 MB. If the `./Spectra` directory is not needed (only used in `cif20.plot_SED.py`, see below for more details), the total size shrinks to less than 7 MB.
 
 ### Files
 
