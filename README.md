@@ -122,185 +122,185 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
   - First: v01 (July 2020)
   - Current: v01 (July 2020)
 
-Row-by-row description of ... available below.
+Row-by-row description of `Mother.v01.csv` available below.
 
-
-| ID | Units | Name | Description | 
-| --- | --- | --- | --- | 
-| 1 | - | Karmn | Star identifier (JHHMMm+DDdAAA)(1) |
-| 2 | - | Name | Discovery or most common name |
-| 3 | hms | RA_J2000 | Right ascension (J2000.0 epoch) (2) |
-| 4 | dms | DE_J2000 | Declination (J2000.0 epoch) (2) |
-| - | hms | RA_J2015 | Right ascension (J2015.5 epoch) |
-| - | dms | DE_J2015 | Declination (J2015.5 epoch) |
-| 5 | - | SpType | Spectral type |
-| 6 | - | SpTnum | Spectral type in numerical format (3) |
-| 7 | - | Ref_SpT | Reference for the spectral type |
-| 8 | mas | Plx | Parallax |
-| 9 | mas | ePlx | Parallax error |
-| 10 | - | Ref_Plx | Reference for the parallax |
-| 11 | pc | d_pc | Distance |
-| 12 | pc | ed_pc | Distance error |
-| 13 | - | Ref_d | Reference for the distance |
-| 14 | solLum | Lbol | Bolometric luminosity from VOSA |
-| 15 | solLum | Lberr | Bolometric luminosity error from VOSA |
-| 16 | K | Teff | Effective temperature from VOSA(4) |
-| 17 | - | logg | Surface gravity from VOSA (4) |
-| 1 | solRad | Radius | Stellar radius (5) |
-| 19 | solRad | eRadius | Stellar radius error |
-| 20 | solMass | Mass | Stellar mass (5) |
-| 21 | solMass | eMass | Stellar mass error |
-| 22 | mag | FUV_mag | GALEX far-UV magnitude |
-| 23 | mag | eFUV_mag | GALEX far-UV magnitude |
-| 24 | mag | FUV_mag | GALEX near-UV magnitude |
-| 25 | mag | eFUV_mag | GALEX near-UV magnitude |
-| 26 | - | Qf_FUV | GALEX far-UV magnitude quality flag (6) |
-| 27 | - | Qf_NUV | GALEX near-UV magnitude quality flag (6) |
-| 28 | - | Ref_FNUV | GALEX far-UV and near-UV magnitudes reference |
-| 29 | mag | u_mag | u magnitude |
-| 30 | mag | eu_mag | u magnitude error |
-| 31 | - | Qf_u | u magnitude quality flag |
-| 32 | - | Ref_u | u magnitude reference |
-| 33 | mag | BT_mag | Tycho-2 BT magnitude |
-| 34 | mag | eBT_mag | Tycho-2 BT magnitude error |
-| 35 | - | Qf_BT | Tycho-2 BT magnitude quality flag |
-| 36 | - | Ref_BT | Tycho-2 BT magnitude reference |
-| 37 | mag | B_mag | Johnson B magnitude |
-| 38 | mag | eB_mag | Johnson B magnitude error |
-| 39 | - | Qf_B | Johnson B magnitude quality flag |
-| 40 | - | Ref_B | Johnson B magnitude reference |
-| 41 | mag | g_mag | g magnitude |
-| 42 | mag | eg_mag | g magnitude error |
-| 43 | - | Qf_g | g magnitude quality flag |
-| 44 | - | Ref_g | g magnitude reference |
-| 45 | mag | BP_mag | Gaia DR2 BP magnitude |
-| 46 | mag | eBP_mag | Gaia DR2 BP magnitude error (7) |
-| 47 | - | Qf_BP | Gaia DR2 BP magnitude quality flag |
-| 48 | - | Ref_BP | Gaia DR2 BP magnitude reference |
-| 49 | mag | VT_mag | Tycho-2 VT magnitude |
-| 50 | mag | eVT_mag | Tycho-2 VT magnitude error |
-| 51 | - | Qf_VT | Tycho-2 VT magnitude quality flag |
-| 52 | - | Ref_VT | Tycho-2 VT magnitude reference |
-| 53 | mag | V_mag | Johnson V magnitude |
-| 54 | mag | eV_mag | Johnson V magnitude error |
-| 55 | - | Qf_V | Johnson V magnitude quality flag |
-| 56 | - | Ref_V | Johnson V magnitude reference |
-| 57 | mag | r_mag | r magnitude |
-| 58 | mag | er_mag | r magnitude error |
-| 59 | - | Qf_r | r magnitude quality flag |
-| 60 | - | Ref_r | r magnitude reference |
-| 61 | mag | GG_mag | Gaia DR2 G magnitude |
-| 62 | mag | eGG_mag | Gaia DR2 G magnitude error (7) |
-| 63 | - | Qf_GG | Gaia DR2 G magnitude quality flag |
-| 64 | - | Ref_GG | Gaia DR2 G magnitude reference |
-| 65 | mag | i_mag | i magnitude |
-| 66 | mag | ei_mag | i magnitude error |
-| 67 | - | Qf_i | i magnitude quality flag |
-| 68 | - | Ref_i | i magnitude reference |
-| 69 | mag | RP_mag | Gaia DR2 RP magnitude |
-| 70 | mag | eRP_mag | Gaia DR2 RP magnitude error (7) |
-| 71 | - | Qf_RP | Gaia DR2 RP magnitude quality flag |
-| 72 | - | Ref_RP | Gaia DR2 RP magnitude reference |
-| 73 | mag | J_mag | 2MASS J magnitude |
-| 74 | mag | eJ_mag | 2MASS J magnitude error |
-| 75 | mag | H_mag | 2MASS H magnitude |
-| 76 | mag | eH_mag | 2MASS H magnitude error |
-| 77 | mag | J_mag | 2MASS Ks magnitude |
-| 78 | mag | eJ_mag | 2MASS Ks magnitude error |
-| 79 | - | Qf_2M | 2MASS JHKs three-character quality flag |
-| 80 | - | Qf_J | 2MASS J magnitude quality flag |
-| 81 | - | Qf_H | 2MASS H magnitude quality flag |
-| 82 | - | Qf_Ks | 2MASS Ks magnitude quality flag |
-| 83 | - | Ref_JHK | 2MASS JHKs magnitudes reference |
-| 84 | mag | W1_mag | WISE W1 magnitude |
-| 85 | mag | eW1_mag | WISE W1 magnitude error |
-| 86 | mag | W2_mag | WISE W2 magnitude |
-| 87 | mag | eW2_mag | WISE W2 magnitude error |
-| 88 | mag | W3_mag | WISE W3 magnitude |
-| 89 | mag | eW3_mag | WISE W3 magnitude error |
-| 90 | mag | W4_mag | WISE W4 magnitude |
-| 91 | mag | eW4_mag | WISE W4 magnitude error |
-| 92 | - | Qf_Ws | WISE W1W2W3W4 four-character quality flag |
-| 93 | - | Qf_W1 | WISE W1 magnitude quality flag |
-| 94 | - | Qf_W2 | WISE W2 magnitude quality flag |
-| 95 | - | Qf_W3 | WISE W3 magnitude quality flag |
-| 96 | - | Qf_W4 | WISE W4 magnitude quality flag |
-| 97 | - | Ref_Ws | WISE W1W2W3W4 magnitude  reference (8) |
-| - | K | Teff_meta |   |
-|  | dex | logg_meta |   |
-|  | dex | Meta_meta |   |
-|  | Lsol | Lbol_meta |   |
-|  | Lsol | Lberr_meta |   |
-|  | Lsol | Lbol_lit |   |
-|  | Lsol | Lberr_lit |   |
-|  | Msol | M_lit |   |
-|  | Msol | eM_lit |   |
-|  | Rsol | R_lit |   |
-|  | Rsol | eR_lit |   |
-|  | K | Teff_lit |   |
-|  | K | eTeff_lit |   |
-|  | | Ref_LMRT |  Literature reference for Lbol, M, R and Teff |
-|  | K | Teff_Pas19 |   |
-|  | K | eTeff_Pas19  |   |
-|  | dex | FeH_lit |   |
-|  | dex | eFeH_lit |   |
-|  | - | FeH_lit_ref  |   |
-|  |  | Binarity |   |
-|  |  | rho |   |
-|  |  | theta |   |
-|  |  | RUWE |   |
-| 98 | - | gaia_id_1 | Gaia DR2 identifier of single or primary star |
-|  |  | ra_1 |   |
-|  |  | ra_error_1 |   |
-|  |  | dec_1 |   |
-|  |  | dec_error_1 |   |
-|  |  | parallax_1 |   |
-|  |  | parallax_error_1  |   |
-|  |  | pmra_1 |   |
-|  |  | pmra_error_1 |   |
-|  |  | pmdec_1 |   |
-|  |  | pmdec_error_1 |   |
-|  |  | pmtotal_1 |   |
-|  |  | pmtotal_error_1 |   |
-|  |  | phot_bp_rp_excess_factor_1 |   |
-|  |  | radial_velocity_1 |   |
-|  |  | radial_velocity_error_1 |   |
-|  |  | l_1 |   |
-|  |  | b_1 |   |
-|  |  | teff_val_1 |   |
-|  |  | lum_val_1 |   |
-| 99 | - | gaia_id_2 | Gaia DR2 identifier of secondary star in close binary system (9) |
-|  |  | ra_2 |   |
-|  |  | ra_error_2 |   |
-|  |  | dec_2 |   |
-|  |  | dec_error_2 |   |
-|  |  | parallax_2 |   |
-|  |  | parallax_error_2  |   |
-|  |  | pmra_2 |   |
-|  |  | pmra_error_2 |   |
-|  |  | pmdec_2 |   |
-|  |  | pmdec_error_2 |   |
-|  |  | pmtotal_2 |   |
-|  |  | pmtotal_error_2 |   |
-|  |  | phot_g_mean_mag_2 |   |
-|  |  | phot_g_mean_mag_error_2 |   |
-|  |  | phot_bp_mean_mag_2 |   |
-|  |  | phot_bp_mean_mag_error_2 |   |
-|  |  | phot_rp_mean_mag_2 |   |
-|  |  | phot_rp_mean_mag_error_2 |   |
-|  |  | phot_bp_rp_excess_factor_2 |   |
-|  |  | radial_velocity_2 |   |
-|  |  | radial_velocity_error_2 |   |
-|  |  | Young_YMG |   |
-|  |  | Young_ref |   |
-|  |  | Class |   |
-|  |  | Sample_source |   |
-|  |  | Bool_contam |   |
-|  |  | Bool_delta | Boolean index for close multiple stars (separated less than 5 arcsec) |
-|  |  | Bool_young | Boolean index for overluminous young stars |
-|  |  | Bool_dphot | Boolean index for stars with non-parallactic distances |
-|  |  | Bool_RUWE | Boolean index for stars with Gaia DR2 RUWE > 1.41 |
-|  |  | Bool_excess | Boolean index for stars with photometric flux excess in Gaia GBP and GRP passband |
+|	ID	|	Name	|	Units	|	Description	|
+|	---	|	---	|	---	|	---	|
+|	1	|	Karmn	|	-	|	Star identifier (JHHMMm+DDdAAA)	|
+|	2	|	Name	|	-	|	Discovery or most common name 	|
+|	3	|	RA_J2000	|	hms	|	Right ascension (J2000.0 epoch) 	|
+|	4	|	DE_J2000	|	dms	|	Declination (J2000.0 epoch) 	|
+|	5	|	RA_J2015	|	hms	|	Right ascension (J2015.5 epoch)	|
+|	6	|	DE_J2015	|	dms	|	Declination (J2015.5 epoch)	|
+|	7	|	SpType	|	-	|	Spectral type 	|
+|	8	|	SpTnum	|	-	|	Spectral type in numerical format 	|
+|	9	|	Ref_SpT	|	-	|	Reference for the spectral type 	|
+|	10	|	Plx	|	mas	|	Parallax 	|
+|	11	|	ePlx	|	mas	|	Parallax error 	|
+|	12	|	Ref_Plx	|	-	|	Reference for the parallax 	|
+|	13	|	d_pc	|	pc	|	Distance 	|
+|	14	|	ed_pc	|	pc	|	Distance error 	|
+|	15	|	Ref_d	|	-	|	Reference for the distance 	|
+|	16	|	Lbol	|	solLum	|	Bolometric luminosity from VOSA 	|
+|	17	|	Lberr	|	solLum	|	Bolometric luminosity error from VOSA 	|
+|	18	|	Teff	|	K	|	Effective temperature from VOSA	|
+|	19	|	logg	|	-	|	Surface gravity from VOSA	|
+|	20	|	Radius	|	solRad	|	Stellar radius	|
+|	21	|	eRadius	|	solRad	|	Stellar radius error 	|
+|	22	|	Mass	|	solMass	|	Stellar mass	|
+|	23	|	eMass	|	solMass	|	Stellar mass error 	|
+|	24	|	FUV_mag	|	mag	|	GALEX far-UV magnitude 	|
+|	25	|	eFUV_mag	|	mag	|	GALEX far-UV magnitude 	|
+|	26	|	FUV_mag	|	mag	|	GALEX near-UV magnitude 	|
+|	27	|	eFUV_mag	|	mag	|	GALEX near-UV magnitude 	|
+|	28	|	Qf_FUV	|	-	|	GALEX far-UV magnitude quality flag	|
+|	29	|	Qf_NUV	|	-	|	GALEX near-UV magnitude quality flag	|
+|	30	|	Ref_FNUV	|	-	|	GALEX far-UV and near-UV magnitudes reference 	|
+|	31	|	u_mag	|	mag	|	u magnitude 	|
+|	32	|	eu_mag	|	mag	|	u magnitude error 	|
+|	33	|	Qf_u	|	-	|	u magnitude quality flag 	|
+|	34	|	Ref_u	|	-	|	u magnitude reference 	|
+|	35	|	BT_mag	|	mag	|	Tycho-2 BT magnitude	|
+|	36	|	eBT_mag	|	mag	|	Tycho-2 BT magnitude error	|
+|	37	|	Qf_BT	|	-	|	Tycho-2 BT magnitude quality flag	|
+|	38	|	Ref_BT	|	-	|	Tycho-2 BT magnitude reference	|
+|	39	|	B_mag	|	mag	|	Johnson B magnitude 	|
+|	40	|	eB_mag	|	mag	|	Johnson B magnitude error 	|
+|	41	|	Qf_B	|	-	|	Johnson B magnitude quality flag 	|
+|	42	|	Ref_B	|	-	|	Johnson B magnitude reference 	|
+|	43	|	g_mag	|	mag	|	g magnitude 	|
+|	44	|	eg_mag	|	mag	|	g magnitude error 	|
+|	45	|	Qf_g	|	-	|	g magnitude quality flag 	|
+|	46	|	Ref_g	|	-	|	g magnitude reference 	|
+|	47	|	BP_mag	|	mag	|	Gaia DR2 BP magnitude	|
+|	48	|	eBP_mag	|	mag	|	Gaia DR2 BP magnitude error (7)	|
+|	49	|	Qf_BP	|	-	|	Gaia DR2 BP magnitude quality flag	|
+|	50	|	Ref_BP	|	-	|	Gaia DR2 BP magnitude reference	|
+|	51	|	VT_mag	|	mag	|	Tycho-2 VT magnitude	|
+|	52	|	eVT_mag	|	mag	|	Tycho-2 VT magnitude error	|
+|	53	|	Qf_VT	|	-	|	Tycho-2 VT magnitude quality flag	|
+|	54	|	Ref_VT	|	-	|	Tycho-2 VT magnitude reference	|
+|	55	|	V_mag	|	mag	|	Johnson V magnitude 	|
+|	56	|	eV_mag	|	mag	|	Johnson V magnitude error 	|
+|	57	|	Qf_V	|	-	|	Johnson V magnitude quality flag 	|
+|	58	|	Ref_V	|	-	|	Johnson V magnitude reference 	|
+|	59	|	r_mag	|	mag	|	r magnitude 	|
+|	60	|	er_mag	|	mag	|	r magnitude error 	|
+|	61	|	Qf_r	|	-	|	r magnitude quality flag 	|
+|	62	|	Ref_r	|	-	|	r magnitude reference 	|
+|	63	|	GG_mag	|	mag	|	Gaia DR2 G magnitude	|
+|	64	|	eGG_mag	|	mag	|	Gaia DR2 G magnitude error (7)	|
+|	65	|	Qf_GG	|	-	|	Gaia DR2 G magnitude quality flag	|
+|	66	|	Ref_GG	|	-	|	Gaia DR2 G magnitude reference	|
+|	67	|	i_mag	|	mag	|	i magnitude 	|
+|	68	|	ei_mag	|	mag	|	i magnitude error 	|
+|	69	|	Qf_i	|	-	|	i magnitude quality flag 	|
+|	70	|	Ref_i	|	-	|	i magnitude reference 	|
+|	71	|	RP_mag	|	mag	|	Gaia DR2 RP magnitude	|
+|	72	|	eRP_mag	|	mag	|	Gaia DR2 RP magnitude error	|
+|	73	|	Qf_RP	|	-	|	Gaia DR2 RP magnitude quality flag	|
+|	74	|	Ref_RP	|	-	|	Gaia DR2 RP magnitude reference	|
+|	75	|	J_mag	|	mag	|	2MASS J magnitude	|
+|	76	|	eJ_mag	|	mag	|	2MASS J magnitude error	|
+|	77	|	H_mag	|	mag	|	2MASS H magnitude	|
+|	78	|	eH_mag	|	mag	|	2MASS H magnitude error	|
+|	79	|	J_mag	|	mag	|	2MASS Ks magnitude	|
+|	80	|	eJ_mag	|	mag	|	2MASS Ks magnitude error	|
+|	81	|	Qf_2M	|	-	|	2MASS JHKs three-character quality flag	|
+|	82	|	Qf_J	|	-	|	2MASS J magnitude quality flag	|
+|	83	|	Qf_H	|	-	|	2MASS H magnitude quality flag	|
+|	84	|	Qf_Ks	|	-	|	2MASS Ks magnitude quality flag	|
+|	85	|	Ref_JHK	|	-	|	2MASS JHKs magnitudes reference	|
+|	86	|	W1_mag	|	mag	|	WISE W1 magnitude	|
+|	87	|	eW1_mag	|	mag	|	WISE W1 magnitude error	|
+|	88	|	W2_mag	|	mag	|	WISE W2 magnitude	|
+|	89	|	eW2_mag	|	mag	|	WISE W2 magnitude error	|
+|	90	|	W3_mag	|	mag	|	WISE W3 magnitude	|
+|	91	|	eW3_mag	|	mag	|	WISE W3 magnitude error	|
+|	92	|	W4_mag	|	mag	|	WISE W4 magnitude	|
+|	93	|	eW4_mag	|	mag	|	WISE W4 magnitude error	|
+|	94	|	Qf_Ws	|	-	|	WISE W1W2W3W4 four-character quality flag	|
+|	95	|	Qf_W1	|	-	|	WISE W1 magnitude quality flag	|
+|	96	|	Qf_W2	|	-	|	WISE W2 magnitude quality flag	|
+|	97	|	Qf_W3	|	-	|	WISE W3 magnitude quality flag	|
+|	98	|	Qf_W4	|	-	|	WISE W4 magnitude quality flag	|
+|	99	|	Ref_Ws	|	-	|	WISE W1W2W3W4 magnitude  reference	|
+|	100	|	Teff_meta	|	K	|	Effective temperature from VOSA	|
+|	101	|	logg_meta	|	dex	|	Surface gravity from VOSA (BT Settl)	|
+|	102	|	Meta_meta	|	dex	|	Metallicity from VOSA (BT Settl)	|
+|	103	|	Lbol_meta	|	solLum	|	Bolometric luminosity from VOSA (BT Settl)	|
+|	104	|	Lberr_meta	|	solLum	|	Bolometric luminosity error from VOSA (BT Settl)	|
+|	105	|	Lbol_lit	|	solLum	|	Bolometric luminosity from the literature	|
+|	106	|	Lberr_lit	|	solLum	|	Bolometric luminosity error from the literature	|
+|	107	|	M_lit	|	solMass	|	Mass from the literature	|
+|	108	|	eM_lit	|	solMass	|	Mass error from the literature	|
+|	109	|	R_lit	|	solRad	|	Radius from the literature	|
+|	110	|	eR_lit	|	solRad	|	Radius error from the literature	|
+|	111	|	Teff_lit	|	K	|	Effective temperature from the literature	|
+|	112	|	eTeff_lit	|	K	|	Effective temperature error from the literature	|
+|	113	|	Ref_LMRT	|	-	|	Literature values reference	|
+|	114	|	Teff_Pas19	|	K	|	Effective temperature from Passegger+19	|
+|	115	|	eTeff_Pas19	|	K	|	Effective temperature error from Passegger+19	|
+|	116	|	FeH_lit	|	dex	|	Metallicity from the literature	|
+|	117	|	eFeH_lit	|	dex	|	Metallicity error from the literature	|
+|	118	|	FeH_lit_ref 	|	-	|	Metallicity reference	|
+|	119	|	Binarity	|	-	|	Kind of multiplicity for this object	|
+|	120	|	rho	|	arcsec	|	Angular separation with the closest component in multiple systems	|
+|	121	|	theta	|	deg	|	Position angle	|
+|	122	|	RUWE	|	-	|	Re-normalised Unit Weight Error	|
+|	123	|	DeltaG	|	mag	|	G magnitude difference with the closest component in multiple systems	|
+|	124	|	gaia_id_1	|	-	|	Gaia DR2 identifier of single or primary star	|
+|	125	|	ra_1	|	hms	|	Right ascension (J2015.5 epoch)	|
+|	126	|	ra_error_1	|	hms	|	Right ascension error (J2015.5 epoch) 	|
+|	127	|	dec_1	|	dms	|	Declination (J2015.5 epoch)	|
+|	128	|	dec_error_1	|	dms	|	Declination error (J2015.5 epoch) 	|
+|	129	|	parallax_1	|	mas	|	Parallax	|
+|	130	|	parallax_error_1	|	mas	|	Parallax error 	|
+|	131	|	pmra_1	|	mas yr-1	|	Proper motion in Right Ascension	|
+|	132	|	pmra_error_1	|	mas yr-1	|	Proper motion error in Right Ascension	|
+|	133	|	pmdec_1	|	mas yr-1	|	Proper motion in Declination	|
+|	134	|	pmdec_error_1	|	mas yr-1	|	Proper motion error in Declination	|
+|	135	|	pmtotal_1	|	mas yr-1	|	Total proper motion	|
+|	136	|	pmtotal_error_1	|	mas yr-1	|	Total proper motion error	|
+|	137	|	phot_bp_rp_excess_factor_1	|	dex	|	BP/RP excess factor	|
+|	138	|	radial_velocity_1	|	km s-1	|	Radial velocity	|
+|	139	|	radial_velocity_error_1	|	km s-1	|	Radial velocity error	|
+|	140	|	l_1	|	deg	|	Galactic longitude for the closest component in multiple systems	|
+|	141	|	b_1	|	deg	|	Galactic latitude for the closest component in multiple systems	|
+|	142	|	teff_val_1	|	K	|	Stellar effective temperature for the closest component in multiple systems	|
+|	143	|	lum_val_1	|	solLum	|	Stellar luminosity for the closest component in multiple systems	|
+|	144	|	gaia_id_2	|	-	|	Gaia DR2 identifier for the closest component in multiple systems	|
+|	145	|	ra_2	|	hms	|	Right ascension (J2015.5 epoch) for the closest component in multiple systems	|
+|	146	|	ra_error_2	|	hms	|	Right ascension error (J2015.5 epoch) for the closest component in multiple systems	|
+|	147	|	dec_2	|	dms	|	Declination (J2015.5 epoch) for the closest component in multiple systems	|
+|	148	|	dec_error_2	|	dms	|	Declination error (J2015.5 epoch) for the closest component in multiple systems	|
+|	149	|	parallax_2	|	mas	|	Parallax for the closest component in multiple systems	|
+|	150	|	parallax_error_2	|	mas	|	Parallax error for the closest component in multiple systems	|
+|	151	|	pmra_2	|	mas yr-1	|	Proper motion in Right Ascension for the closest component in multiple systems	|
+|	152	|	pmra_error_2	|	mas yr-1	|	Proper motion error in Right Ascension for the closest component in multiple systems	|
+|	153	|	pmdec_2	|	mas yr-1	|	Proper motion in Declination for the closest component in multiple systems	|
+|	154	|	pmdec_error_2	|	mas yr-1	|	Proper motion error in Declination for the closest component in multiple systems	|
+|	155	|	pmtotal_2	|	mas yr-1	|	Total proper motion for the closest component in multiple systems	|
+|	156	|	pmtotal_error_2	|	mas yr-1	|	Total proper motion error for the closest component in multiple systems	|
+|	157	|	phot_g_mean_mag_2	|	mag	|	G-band mean magnitude for the closest component in multiple systems	|
+|	158	|	phot_g_mean_mag_error_2	|	mag	|	G-band mean magnitude error for the closest component in multiple systems	|
+|	159	|	phot_bp_mean_mag_2	|	mag	|	BP-band mean magnitude for the closest component in multiple systems	|
+|	160	|	phot_bp_mean_mag_error_2	|	mag	|	BP-band mean magnitude error for the closest component in multiple systems	|
+|	161	|	phot_rp_mean_mag_2	|	mag	|	RP-band mean magnitude for the closest component in multiple systems	|
+|	162	|	phot_rp_mean_mag_error_2	|	mag	|	RP-band mean magnitude error for the closest component in multiple systems	|
+|	163	|	phot_bp_rp_excess_factor_2	|	mag	|	BP/RP excess factor for the closest component in multiple systems	|
+|	164	|	radial_velocity_2	|	km s-1	|	Radial velocity for the closest component in multiple systems	|
+|	165	|	radial_velocity_error_2	|	km s-1	|	Radial velocity error for the closest component in multiple systems	|
+|	166	|	Young_YMG	|	-	|	Young Moving Group identificator	|
+|	167	|	Young_ref	|	-	|	Young Moving Group reference	|
+|	168	|	Class	|	-	|	Carmencita class	|
+|	169	|	Sample_source	|	-	|	Source for the star	|
+|	170	|	Bool_contam	|	Bool	|	Boolean index for contaminated stars (‘true’ for contaminated)	|
+|	171	|	Bool_delta	|	Bool	|	Boolean index for close multiple stars separated less than 5 arcsec (‘true’ for close multiplicity)	|
+|	172	|	Bool_young	|	Bool	|	Boolean index for overluminous young stars (‘true’ for young stars)	|
+|	173	|	Bool_dphot	|	Bool	|	Boolean index for stars with non-parallactic distances (‘true’ for photometric distances)	|
+|	174	|	Bool_RUWE	|	Bool	|	Boolean index for stars with high Gaia DR2 RUWE (‘true’ for RUWE > 1.41)	|
+|	175	|	Bool_excess	|	Bool	|	Boolean index for stars with photometric flux excess in Gaia GBP and GRP passband (‘true’ for stars with excess)	|
 
 ---
 
