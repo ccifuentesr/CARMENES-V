@@ -114,9 +114,12 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 3. <small id="f3"> Now available in the <a href="https://gea.esac.esa.int/archive/" target="_blank">*Gaia* Archive</a>.</small> [↩](#a3)
 4. <small id="f4"> Spectral types in numerical form: K5V = -2, K7V = -1, M0.0 = 0.0, and so on. </small> [↩](#a4)
 
+**Notes:** 
+- The output image format is `.eps` in all cases, which is the most suitable format for publication in journals. For a more manageable format, change `.eps` to `.png` in the code.
+
 ### Mother: the master table
 
-`Mother.v01.csv` is the full version of the table associated to Cifuentes et al. 2020 and stored in [link to CDS]. It contains 2486 rows and 183 columns.
+`Mother.v01.csv` is the full version of the table associated to Cifuentes et al. 2020 and stored in [link to CDS in progress]. It contains 2483 rows and 175 columns.
 
 - Versions
   - First: v01 (July 2020)
@@ -303,9 +306,9 @@ Row-by-row description of `Mother.v01.csv` available below.
 |	175	|	Bool_excess	|	Bool	|	Boolean index for stars with photometric flux excess in *Gaia* DR2	|	'true’ for stars with excess (see Evans et al. 2018)	|
 
 **Notes:** 
+- In all cases, quality flags are 'true' for poor photometric quality, and 'false' for good or acceptable photometric quality. For *2MASS* and *WISE*/*AllWISE* photometry, the alphabetic quality flags (of the form NNN and NNNN, respectively) are provided. In the *Gaia* DR2 data, the indicators `RUWE` and `phot_bp_rp_excess_factor determine the quality of their astrometric and photometric solution.
+- Uncertainties in *Gaia* DR2 photometry are computed from the associated bolometric flux and its error.
 - In the description, 'B' (not *B*) should be read 'the closest component in multiple systems'.
-- In all cases, quality flags are 'true' for poor photometric quality, and 'false' for good or acceptable photometric quality. For 2MASS and WISE/AllWISE photometry, the alphabetic quality flags (of the form NNN and NNNN, respectively) are provided. In the Gaia DR2 data, the indicators `RUWE` and `phot_bp_rp_excess_factor determine the quality of their astrometric and photometric solution.
-- Uncertainties in Gaia DR2 photometry are computed from the associated bolometric flux and its error.
 
 ---
 
