@@ -49,7 +49,7 @@ The total size is 51 MB. If the `./Spectra` directory is not needed, the size sh
 
 ### Files
 
-All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of output that it produces, `yyy` gives additional information about the output, and `zzz` enumerates the main variables involved. For example, the script `cif20.plot_literature_Mabs_SpT.py` produces an absolute magnitude vs. spectral type plot, and compares the values with those of the literature. The complete list of files and their description can be found below.
+All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of output that it produces, `yyy` gives additional information about the output, and `zzz` enumerates the main variables involved. For example, the script `cif20.plot_literature_Mabs_SpT.py` produces an absolute magnitude vs. spectral type plot, and compares the values with those of the literature. The complete list of files and their description can be found below sorted by output, in alphabetical order.
 
 | File | Description | Input<sup id="a1">[1](#f1)</sup>| Output<sup id="a2">[2](#f2)</sup> | 
 | --- | --- | --- | --- | 
@@ -110,8 +110,8 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 |	cif20.VOSA_input_generator.py	|	Generates an ASCII file from a set of photometric data, compatible with the VOSA input format.	|	Mags, d |	A VOSA compatible .txt with all stars. |
 
 1. <small id="f1"> Lbol = bolometric luminosity (Lsol); Teff = effective temperature (K); M = mass (Msol); R = radius (Rsol); logg = surface gravity (dex); 	[Fe/H] = metallicity (dex); d = distance (pc); Plx = parallax (mas); RA, DE = equatorial coordinates in the J2000 equinox; 'mag' = magnitudes. Uncertainties are almost always used as an input, but they are omitted here for simplicity. Also, spectral types are almost always needed to colour-code the scatter plots. </small> [↩](#a1) 
-2. <small id="f2"> Now available in the <a href="https://gea.esac.esa.int/archive/" target="_blank">*Gaia* Archive</a>. </small> [↩](#a2)
-3. <small id="f3"> Specific element in Cifuentes et al. 2020 that each script produces. </small> [↩](#a3)
+2. <small id="f2"> Specific element in Cifuentes et al. 2020 that each script produces. </small> [↩](#a2)
+3. <small id="f3"> Now available in the <a href="https://gea.esac.esa.int/archive/" target="_blank">*Gaia* Archive</a>.</small> [↩](#a3)
 4. <small id="f4"> Spectral types in numerical form: K5V = -2, K7V = -1, M0.0 = 0.0, and so on. </small> [↩](#a4)
 
 ### Mother: the master table
@@ -122,7 +122,113 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
   - First: v01 (July 2020)
   - Current: v01 (July 2020)
 
-(Row-by-row description of the table available here).
+Row-by-row description of ... available below.
+
+
+| ID | Units | Name | Description | 
+| 1 | - | Karmn | Star identifier (JHHMMm+DDdAAA)(1) |
+| 2 | - | Name | Discovery or most common name |
+| 3 | hms | RA | Right ascension (J2000.0) (2) |
+| 4 | dms | DE | Declination (J2000.0) (2) |
+| 5 | - | SpType | Spectral type |
+| 6 | - | SpTnum | Spectral type in numerical format (3) |
+| 7 | - | Ref_SpT | Reference for the spectral type |
+| 8 | mas | Plx | Parallax |
+| 9 | mas | ePlx | Parallax error |
+| 10 | - | Ref_Plx | Reference for the parallax |
+| 11 | pc | d_pc | Distance |
+| 12 | pc | ed_pc | Distance error |
+| 13 | - | Ref_d | Reference for the distance |
+| 14 | solLum | Lbol | Bolometric luminosity from VOSA |
+| 15 | solLum | eLbol | Bolometric luminosity error from VOSA |
+| 16 | K | Teff | Effective temperature from VOSA(4) |
+| 17 | - | logg | Surface gravity from VOSA (4) |
+| 1 | solRad | Radius | Stellar radius (5) |
+| 19 | solRad | eRadius | Stellar radius error |
+| 20 | solMass | Mass | Stellar mass (5) |
+| 21 | solMass | eMass | Stellar mass error |
+| 22 | mag | FUV_mag | GALEX far-UV magnitude |
+| 23 | mag | eFUV_mag | GALEX far-UV magnitude |
+| 24 | mag | FUV_mag | GALEX near-UV magnitude |
+| 25 | mag | eFUV_mag | GALEX near-UV magnitude |
+| 26 | - | Qf_FUV | GALEX far-UV magnitude quality flag (6) |
+| 27 | - | Qf_NUV | GALEX near-UV magnitude quality flag (6) |
+| 28 | - | Ref_FNUV | GALEX far-UV and near-UV magnitudes reference |
+| 29 | mag | u_mag | u magnitude |
+| 30 | mag | eu_mag | u magnitude error |
+| 31 | - | Qf_u | u magnitude quality flag |
+| 32 | - | Ref_u | u magnitude reference |
+| 33 | mag | BT_mag | Tycho-2 BT magnitude |
+| 34 | mag | eBT_mag | Tycho-2 BT magnitude error |
+| 35 | - | Qf_BT | Tycho-2 BT magnitude quality flag |
+| 36 | - | Ref_BT | Tycho-2 BT magnitude reference |
+| 37 | mag | B_mag | Johnson B magnitude |
+| 38 | mag | eB_mag | Johnson B magnitude error |
+| 39 | - | Qf_B | Johnson B magnitude quality flag |
+| 40 | - | Ref_B | Johnson B magnitude reference |
+| 41 | mag | g_mag | g magnitude |
+| 42 | mag | eg_mag | g magnitude error |
+| 43 | - | Qf_g | g magnitude quality flag |
+| 44 | - | Ref_g | g magnitude reference |
+| 45 | mag | BP_mag | Gaia DR2 BP magnitude |
+| 46 | mag | eBP_mag | Gaia DR2 BP magnitude error (7) |
+| 47 | - | Qf_BP | Gaia DR2 BP magnitude quality flag |
+| 48 | - | Ref_BP | Gaia DR2 BP magnitude reference |
+| 49 | mag | VT_mag | Tycho-2 VT magnitude |
+| 50 | mag | eVT_mag | Tycho-2 VT magnitude error |
+| 51 | - | Qf_VT | Tycho-2 VT magnitude quality flag |
+| 52 | - | Ref_VT | Tycho-2 VT magnitude reference |
+| 53 | mag | V_mag | Johnson V magnitude |
+| 54 | mag | eV_mag | Johnson V magnitude error |
+| 55 | - | Qf_V | Johnson V magnitude quality flag |
+| 56 | - | Ref_V | Johnson V magnitude reference |
+| 57 | mag | r_mag | r magnitude |
+| 58 | mag | er_mag | r magnitude error |
+| 59 | - | Qf_r | r magnitude quality flag |
+| 60 | - | Ref_r | r magnitude reference |
+| 61 | mag | GG_mag | Gaia DR2 G magnitude |
+| 62 | mag | eGG_mag | Gaia DR2 G magnitude error (7) |
+| 63 | - | Qf_GG | Gaia DR2 G magnitude quality flag |
+| 64 | - | Ref_GG | Gaia DR2 G magnitude reference |
+| 65 | mag | i_mag | i magnitude |
+| 66 | mag | ei_mag | i magnitude error |
+| 67 | - | Qf_i | i magnitude quality flag |
+| 68 | - | Ref_i | i magnitude reference |
+| 69 | mag | RP_mag | Gaia DR2 RP magnitude |
+| 70 | mag | eRP_mag | Gaia DR2 RP magnitude error (7) |
+| 71 | - | Qf_RP | Gaia DR2 RP magnitude quality flag |
+| 72 | - | Ref_RP | Gaia DR2 RP magnitude reference |
+| 73 | mag | J_mag | 2MASS J magnitude |
+| 74 | mag | eJ_mag | 2MASS J magnitude error |
+| 75 | mag | H_mag | 2MASS H magnitude |
+| 76 | mag | eH_mag | 2MASS H magnitude error |
+| 77 | mag | J_mag | 2MASS Ks magnitude |
+| 78 | mag | eJ_mag | 2MASS Ks magnitude error |
+| 79 | - | Qf_2M | 2MASS JHKs three-character quality flag |
+| 80 | - | Qf_J | 2MASS J magnitude quality flag |
+| 81 | - | Qf_H | 2MASS H magnitude quality flag |
+| 82 | - | Qf_Ks | 2MASS Ks magnitude quality flag |
+| 83 | - | Ref_JHK | 2MASS JHKs magnitudes reference |
+| 84 | mag | W1_mag | WISE W1 magnitude |
+| 85 | mag | eW1_mag | WISE W1 magnitude error |
+| 86 | mag | W2_mag | WISE W2 magnitude |
+| 87 | mag | eW2_mag | WISE W2 magnitude error |
+| 88 | mag | W3_mag | WISE W3 magnitude |
+| 89 | mag | eW3_mag | WISE W3 magnitude error |
+| 90 | mag | W4_mag | WISE W4 magnitude |
+| 91 | mag | eW4_mag | WISE W4 magnitude error |
+| 92 | - | Qf_Ws | WISE W1W2W3W4 four-character quality flag |
+| 93 | - | Qf_W1 | WISE W1 magnitude quality flag |
+| 94 | - | Qf_W2 | WISE W2 magnitude quality flag |
+| 95 | - | Qf_W3 | WISE W3 magnitude quality flag |
+| 96 | - | Qf_W4 | WISE W4 magnitude quality flag |
+| 97 | - | Ref_Ws | WISE W1W2W3W4 magnitude  reference (8) |
+| 98 | - | gaia_id_1 | Gaia DR2 identifier of single or primary star |
+| 99 | - | gaia_id_2 | Gaia DR2 identifier of secondary star in close binary system (9) |
+| 100 | - | Multiple | Boolean index for close multiple stars (separated less than 5 arcsec) |
+| 101 | - | Young | Boolean index for overluminous young stars |
+| 102 | - | RUWE | Boolean index for stars with Gaia DR2 RUWE > 1.41 |
+| 103 | - | Excess | Boolean index for stars with photometric flux excess in Gaia GBP and GRP passband |
 
 ---
 
