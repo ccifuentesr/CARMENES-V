@@ -7,6 +7,7 @@ import csv
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
+from matplotlib.ticker import FormatStrFormatter
 import matplotlib.cm as cm
 from matplotlib import rc
 
