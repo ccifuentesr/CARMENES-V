@@ -126,6 +126,7 @@ Row-by-row description of ... available below.
 
 
 | ID | Units | Name | Description | 
+| --- | --- | --- | --- | 
 | 1 | - | Karmn | Star identifier (JHHMMm+DDdAAA)(1) |
 | 2 | - | Name | Discovery or most common name |
 | 3 | hms | RA | Right ascension (J2000.0) (2) |
