@@ -331,3 +331,5 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 ## Suggested Resources
 
 - <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
+- <a href="https://carmenes.caha.es" target="_blank">CARMENES Website</a>
+
