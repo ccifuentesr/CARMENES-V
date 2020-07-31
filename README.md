@@ -41,7 +41,7 @@
 
 ### Directories
 
-- Directory ./: Includes all the code files classified as detailed below and the master table (`Mother.v01.csv`). [57 files, 3.1 MB]
+- Directory ./: Includes all the code files classified as detailed below and the master table (`cif20.Mother.v01.csv`). [57 files, 3.1 MB]
 - Directory ./Baraffe: (see <a href="https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..42B/" target="_blank">Baraffe et al. 2015</a>). [7 items, 33 KB]
 - Directory ./Filters: Includes the transmission curves for 20 filters (FUV to W4). [24 items 138 KB]
 - Directory ./Literature: Includes the individual tables with data from the literature. [33 items, 3.9 MB]
@@ -122,7 +122,7 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 
 ### Mother: the master table
 
-`Mother.v01.csv` is the full version of Table A.3 (summary table) in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>, available at the CDS via anonymous ftp to cdsarc.u-strasbg.fr(130.79.128.5) or via [*link to CDS in progress*]. The complete version available here contains 2483 rows and 175 columns. It is stored in the root directory and can be manipulated separately with tabular data managemente software such as <a href="http://www.star.bris.ac.uk/~mbt/topcat/" target="_blank">TOPCAT</a>.
+`cif20.Mother.v01.csv` is the full version of Table A.3 (summary table) in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>, available at the CDS via anonymous ftp to cdsarc.u-strasbg.fr(130.79.128.5) or via [*link to CDS in progress*]. The complete version available here contains 2483 rows and 175 columns. It is stored in the root directory and can be manipulated separately with tabular data managemente software such as <a href="http://www.star.bris.ac.uk/~mbt/topcat/" target="_blank">TOPCAT</a>.
 
 **Version history**
 
@@ -130,7 +130,7 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 |	---	|	---	| --- |
 | 01 | July 2020 | Current version |
 
-Row-by-row description of `Mother.v01.csv` available below.
+Row-by-row description of `cif20.Mother.v01.csv` available below.
 
 |	ID	|	Name	|	Units	|	Description	|	Annotations	|
 |	---	|	---	|	---	|	---	|	---	|
