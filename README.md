@@ -41,7 +41,7 @@
 ### Directories
 
 - Directory ./: Includes all the code files classified as detailed below and the master table (`Mother.v01.csv`). [57 files, 3.1 MB]
-- Directory ./Baraffe: (see https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..42B/). [7 items, 33 KB]
+- Directory ./Baraffe: (see <a href="https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..42B/" target="_blank">Baraffe et al. 2015</a>). [7 items, 33 KB]
 - Directory ./Filters: Includes the transmission curves for 20 filters (FUV to W4). [24 items 138 KB]
 - Directory ./Literature: Includes the individual tables with data from the literature. [33 items, 3.9 MB]
 - Directory ./Spectra: Includes PHOENIX synthetic spectra. [1 item, 11 MB]
@@ -121,7 +121,7 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 
 ### Mother: the master table
 
-`Mother.v01.csv` is the full version of Table A.3 (summary table) in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>, available at the CDS via anonymous ftp to cdsarc.u-strasbg.fr(130.79.128.5) or via [*link to CDS in progress*]. The complete version available here contains 2483 rows and 175 columns. It is contained in the root directory and can be manipulated separately with tabular data managemente software such as <a href="http://www.star.bris.ac.uk/~mbt/topcat/" target="_blank">TOPCAT</a>.
+`Mother.v01.csv` is the full version of Table A.3 (summary table) in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>, available at the CDS via anonymous ftp to cdsarc.u-strasbg.fr(130.79.128.5) or via [*link to CDS in progress*]. The complete version available here contains 2483 rows and 175 columns. It is stored in the root directory and can be manipulated separately with tabular data managemente software such as <a href="http://www.star.bris.ac.uk/~mbt/topcat/" target="_blank">TOPCAT</a>.
 
 **Version history**
 
@@ -334,4 +334,15 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 
 - <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
 - <a href="https://carmenes.caha.es" target="_blank">CARMENES Website</a>
+
+---
+
+## All volumes of the series
+
+- <a href="https://ui.adsabs.harvard.edu/abs/2020arXiv200715077C/abstract" target="_blank">*CARMENES input catalogue of M dwarfs V. Luminosities, colours, and spectral energy distributions*. Cifuentes et al 2020</a>
+- <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...621A.126D/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. IV. New rotation periods from photometric time series*. Díez Alonso et al. </a>
+- <a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...614A..76J/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. III. Rotation and activity from high-resolution spectroscopic observations*. Jeffers et al. 2018 </a>
+- <a href="https://ui.adsabs.harvard.edu/abs/2017A%26A...597A..47C/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. II. High-resolution imaging with FastCam*. Cortés-Contreras et al. 2017 </a>
+- <a href="https://ui.adsabs.harvard.edu/abs/2015A%26A...577A.128A/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. I. Low-resolution spectroscopy with CAFOS*. Alonso-Floriano et al. 2015 </a>
+
 
