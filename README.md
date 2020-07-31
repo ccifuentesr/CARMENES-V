@@ -44,10 +44,10 @@
 - Directory ./Baraffe: (see https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..42B/). [7 items, 33 KB]
 - Directory ./Filters: Includes the transmission curves for 20 filters (FUV to W4). [24 items 138 KB]
 - Directory ./Literature: Includes the individual tables with data from the literature. [33 items, 3.9 MB]
-- Directory ./Spectra: Includes PHOENIX synthetic spectra. [1 item, 44.1 MB]
+- Directory ./Spectra: Includes PHOENIX synthetic spectra. [1 item, 11 MB]
 - Directory ./Stars: Includes data for individual stars to produce custom SEDs. [4 items, 20 KB]
 
-The total size is 51 MB. If the `./Spectra` directory is not needed (only used in `cif20.plot_SED.py`, see below for more details), the total size shrinks to less than 7 MB.
+The total size is 29 MB. If the `./Spectra` directory is not needed (only used in `cif20.plot_SED.py`, see below for more details), the total size shrinks to less than 7 MB.
 
 ### Files
 
