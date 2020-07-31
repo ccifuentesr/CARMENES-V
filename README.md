@@ -121,11 +121,13 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 
 ### Mother: the master table
 
-`Mother.v01.csv` is the full version of the table associated to Cifuentes et al. 2020 and stored in [link to CDS in progress]. It contains 2483 rows and 175 columns.
+`Mother.v01.csv` is the full version of Table A.3 (summary table) in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>, available at the CDS via anonymous ftp to cdsarc.u-strasbg.fr(130.79.128.5) or via [*link to CDS in progress*]. The complete version available here contains 2483 rows and 175 columns. It is contained in the root directory and can be manipulated separately with tabular data managemente software such as <a href="http://www.star.bris.ac.uk/~mbt/topcat/" target="_blank">TOPCAT</a>.
 
-- Versions
-  - First: v01 (July 2020)
-  - Current: v01 (July 2020)
+**Version history**
+
+|	Version	|	Date	| Comments |
+|	---	|	---	| --- |
+| 01 | July 2020 | Current version |
 
 Row-by-row description of `Mother.v01.csv` available below.
 
