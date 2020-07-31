@@ -1,5 +1,5 @@
-# CARMENES input catalogue of M dwarfs. 
-## V. Luminosities, colours, and spectral energy distributions.
+# CARMENES input catalogue of M dwarfs
+## V. Luminosities, colours, and spectral energy distributions
   
 > This repository contains the pieces of code necessary to produce all figures, tables and models in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>.
 
@@ -108,7 +108,7 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 |	cif20.plot_model_Mabs_colour_meta.py	|	Plots MG vs. G-J colour-coded by metallicity and fits a polynomial.	|	GJ mag, d	|	Figure 21, Table 5. |
 |	cif20.plot_model_Mabs_Lbol.py	|	Plots Luminosity vs. MG or MJ and fits two polynomials (2 ranges).|	GJ mag, d, Lbol	|	Figure 16, Table 5, Minitool: Parsecator™ |
 |	cif20.plot_model_Mabs_Lbol_meta.py	|	Plots Luminosity vs. MG or MJ colour-coded by metallicity and fits a polynomial.	|	J mag, d, Lbol |	Figure 21, Table 5. |
-|	cif20.table_generator.py	|	Produces Tables 6, 7 and 8. Plots mean values of Teff, Lbol, Mass, Radius.	|	All parameters in Tabes 6-8.	|	Tables 6, 7 and 8 in TeX format, ready to paste. Figures 19 and 20 |
+|	cif20.table_generator.py	|	Produces Tables 6, 7 and 8. Plots mean values of Teff, Lbol, Mass, Radius.	|	All parameters in Tabes 6-8	|	Tables 6, 7 and 8 in TeX format, ready to paste. Figures 19 and 20 |
 |	cif20.VOSA_input_generator.py	|	Generates an ASCII file from a set of photometric data, compatible with the VOSA input format.	|	Mags, d |	A VOSA compatible .txt with all stars. |
 
 1. <small id="f1"> Lbol = bolometric luminosity (Lsol); Teff = effective temperature (K); M = mass (Msol); R = radius (Rsol); logg = surface gravity (dex); 	[Fe/H] = metallicity (dex); d = distance (pc); Plx = parallax (mas); RA, DE = equatorial coordinates in the J2000 equinox; 'mag' = magnitudes. Uncertainties are almost always used as an input, but they are omitted here for simplicity. Also, spectral types are almost always needed to colour-code the scatter plots. </small> [↩](#a1) 
