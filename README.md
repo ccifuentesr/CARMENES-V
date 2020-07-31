@@ -16,6 +16,7 @@
 - [Support](#support)
 - [License](#license)
 - [Suggested Resources](#resources)
+- [The CARMENES input catalogue of M dwarfs series](#volumes)
 
 ---
 
@@ -337,7 +338,7 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 
 ---
 
-## All volumes of the series
+## The CARMENES input catalogue of M dwarfs series
 
 - <a href="https://ui.adsabs.harvard.edu/abs/2020arXiv200715077C/abstract" target="_blank">*CARMENES input catalogue of M dwarfs V. Luminosities, colours, and spectral energy distributions*. Cifuentes et al 2020</a>
 - <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...621A.126D/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. IV. New rotation periods from photometric time series*. Díez Alonso et al. </a>
