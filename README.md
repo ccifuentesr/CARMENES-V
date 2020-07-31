@@ -1,7 +1,7 @@
 # CARMENES input catalogue of M dwarfs. 
 ## V. Luminosities, colours, and spectral energy distributions.
   
-> This repository contains the pieces of code necessary to produce all figures, tables and models in Cifuentes et al. 2020. 
+> This repository contains the pieces of code necessary to produce all figures, tables and models in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>.
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
