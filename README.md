@@ -45,7 +45,7 @@
 - Directory ./Baraffe: (see <a href="https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..42B/" target="_blank">Baraffe et al. 2015</a>). [7 items, 33 KB]
 - Directory ./Filters: Includes the transmission curves for 20 filters (FUV to W4). [24 items 138 KB]
 - Directory ./Literature: Includes the individual tables with data from the literature. [33 items, 3.9 MB]
-- Directory ./Spectra: Includes PHOENIX synthetic spectra. [1 item, 11 MB]
+- Directory ./Spectra: Includes PHOENIX synthetic spectra. [1 item, 22 MB]
 - Directory ./Stars: Includes data for individual stars to produce custom SEDs. [4 items, 20 KB]
 
 The total size is 29 MB. If the `./Spectra` directory is not needed (only used in `cif20.plot_SED.py`, see below for more details), the total size shrinks to less than 7 MB.
@@ -103,11 +103,11 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 |	cif20.plot_literature_Teff.py	|	Plots Teff vs. Teff diagram plus literature values (Passegger+19).	|	Teff	|	Pas19	|	- |
 |	cif20.plot_literature_Teff_colour.py	|	Plots Teff vs. V-J diagram plus literature values (Casagrande+08, Pecaut+13).	|	VJ mag, Teff	|	Figure 26	|	
 |	cif20.plot_literature_Teff_meta.py	|	Plots comparison of effective temperatures from BT-Settl and from BT-Settl CIFIST.	|	Effective temperatures. Metallicities.	|	- |	
-|	cif20.plot_model_BC_colour.py	|	Plots BCG, BCr, BCJ, BCW3 vs. G-J,  r-J, G-J, G-J, and fits two polynomial (2 ranges).	|	GrJW3 mag, d, Lbol	|	Figure 18, Table 5,  Minitool: Illuminator BC™	|
+|	cif20.plot_model_BC_colour.py	|	Plots BCG, BCr, BCJ, BCW3 vs. G-J,  r-J, G-J, G-J, and fits two polynomial (2 ranges).	|	GrJW3 mag, d, Lbol	|	Figure 18, Table 5,  Minitool: Illuminator BC<sup id="a5">[5](#f5)</sup>	|
 |	cif20.plot_model_BC_colour_meta.py	|	Plots BCG vs. G-J colour-coded by metallicity and fits a polynomial.	|	GJ mag, d, Lbol	|	Table 5	|
-|	cif20.plot_model_Mabs_colour.py	|	Plots MG vs. G-J or Mr vs. r-J and fits a polynomial.	|	GJr mag, d |	Figure 15, Table 5, Minitool: Parsecator™	|
+|	cif20.plot_model_Mabs_colour.py	|	Plots MG vs. G-J or Mr vs. r-J and fits a polynomial.	|	GJr mag, d |	Figure 15, Table 5, Minitool: Parsecator<sup id="a5">[5](#f5)</sup>	|
 |	cif20.plot_model_Mabs_colour_meta.py	|	Plots MG vs. G-J colour-coded by metallicity and fits a polynomial.	|	GJ mag, d	|	Figure 21, Table 5. |
-|	cif20.plot_model_Mabs_Lbol.py	|	Plots Luminosity vs. MG or MJ and fits two polynomials (2 ranges).|	GJ mag, d, Lbol	|	Figure 16, Table 5, Minitool: Parsecator™ |
+|	cif20.plot_model_Mabs_Lbol.py	|	Plots Luminosity vs. MG or MJ and fits two polynomials (2 ranges).|	GJ mag, d, Lbol	|	Figure 16, Table 5, Minitool: Illuminator<sup id="a5">[5](#f5)</sup> |
 |	cif20.plot_model_Mabs_Lbol_meta.py	|	Plots Luminosity vs. MG or MJ colour-coded by metallicity and fits a polynomial.	|	J mag, d, Lbol |	Figure 21, Table 5. |
 |	cif20.table_generator.py	|	Produces Tables 6, 7 and 8. Plots mean values of Teff, Lbol, Mass, Radius.	|	All parameters in Tabes 6-8	|	Tables 6, 7 and 8 in TeX format, ready to paste. Figures 19 and 20 |
 |	cif20.VOSA_input_generator.py	|	Generates an ASCII file from a set of photometric data, compatible with the VOSA input format.	|	Mags, d |	A VOSA compatible .txt with all stars. |
@@ -116,6 +116,7 @@ All files are named `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of outp
 2. <small id="f2"> Specific element in Cifuentes et al. 2020 that each script produces. </small> [↩](#a2)
 3. <small id="f3"> Now available in the <a href="https://gea.esac.esa.int/archive/" target="_blank">*Gaia* Archive</a>.</small> [↩](#a3)
 4. <small id="f4"> Spectral types in numerical form: K5V = -2, K7V = -1, M0.0 = 0.0, and so on. </small> [↩](#a4)
+5. <small id="f5"> The minitools *Parsecator* and *Illuminator* estimate distances and luminosities, respectively, based on the models produced in their respective files. They are provided as individual code cells meant to be run as standalone pieces of code, always after the models have been produced. </small> [↩](#a5)
 
 **Notes:** 
 - The output image format is `.eps` in all cases, which is the most suitable format for publication in journals. For a more manageable format, change `.eps` to `.png` in the code.
