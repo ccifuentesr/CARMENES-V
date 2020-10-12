@@ -5,7 +5,7 @@
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-[![Publication](https://img.shields.io/badge/Published%3F-waiting-orange.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Publication](https://img.shields.io/badge/Published%3F-yes-brightgreen.svg)](https://www.aanda.org/articles/aa/abs/2020/10/aa38295-20/aa38295-20.html)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/ccifuentesr)
 
@@ -341,7 +341,7 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 
 ## The *CARMENES input catalogue of M dwarfs* series
 
-- <a href="https://ui.adsabs.harvard.edu/abs/2020arXiv200715077C/abstract" target="_blank">*CARMENES input catalogue of M dwarfs V. Luminosities, colours, and spectral energy distributions* </a>  Cifuentes et al 2020.
+- <a href="https://www.aanda.org/articles/aa/abs/2020/10/aa38295-20/aa38295-20.html" target="_blank">*CARMENES input catalogue of M dwarfs V. Luminosities, colours, and spectral energy distributions* </a>  Cifuentes et al 2020.
 - <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...621A.126D/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. IV. New rotation periods from photometric time series* </a> Díez Alonso et al. 2019.
 - <a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...614A..76J/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. III. Rotation and activity from high-resolution spectroscopic observations* </a> Jeffers et al. 2018.
 - <a href="https://ui.adsabs.harvard.edu/abs/2017A%26A...597A..47C/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. II. High-resolution imaging with FastCam*</a> Cortés-Contreras et al. 2017.
