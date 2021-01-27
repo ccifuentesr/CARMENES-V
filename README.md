@@ -3,6 +3,14 @@
   
 > This repository contains the pieces of code necessary to produce all figures, tables and models in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>.
 
+The *CARMENES input catalogue of M dwarfs* series contains:
+
+- <a href="https://www.aanda.org/articles/aa/abs/2020/10/aa38295-20/aa38295-20.html" target="_blank">*CARMENES input catalogue of M dwarfs V. Luminosities, colours, and spectral energy distributions* </a>  **Cifuentes et al 2020** (This work).
+- <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...621A.126D/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. IV. New rotation periods from photometric time series* </a> Díez Alonso et al. 2019.
+- <a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...614A..76J/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. III. Rotation and activity from high-resolution spectroscopic observations* </a> Jeffers et al. 2018.
+- <a href="https://ui.adsabs.harvard.edu/abs/2017A%26A...597A..47C/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. II. High-resolution imaging with FastCam*</a> Cortés-Contreras et al. 2017.
+- <a href="https://ui.adsabs.harvard.edu/abs/2015A%26A...577A.128A/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. I. Low-resolution spectroscopy with CAFOS*</a> Alonso-Floriano et al. 2015.
+
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![Publication](https://img.shields.io/badge/Published%3F-yes-brightgreen.svg)](https://www.aanda.org/articles/aa/abs/2020/10/aa38295-20/aa38295-20.html)
@@ -16,7 +24,6 @@
 - [Support](#support)
 - [License](#license)
 - [Suggested Resources](#resources)
-- [The CARMENES input catalogue of M dwarfs series](#volumes)
 
 ---
 
@@ -233,7 +240,7 @@ Row-by-row description of `cif20.Mother.v01.csv` available below.
 |	96	|	Qf_W2	|	-	|	WISE *W2* magnitude quality flag	|		|
 |	97	|	Qf_W3	|	-	|	WISE *W3* magnitude quality flag	|		|
 |	98	|	Qf_W4	|	-	|	WISE *W4* magnitude quality flag	|		|
-|	99	|	Ref_Ws	|	-	|	WISE *W1W2W3W4* magnitude  reference	|	WISE': AllWISE (Cutri et al. 2014); 'WISE*': WISE (Cutri et al. 2012).	|
+|	99	|	Ref_Ws	|	-	|	WISE *W1W2W3W4* magnitude  reference	|	'WISE': AllWISE (Cutri et al. 2014); 'WISE*': WISE (Cutri et al. 2012).	|
 |	100	|	Teff_meta	|	K	|	Effective temperature from VOSA	|		|
 |	101	|	logg_meta	|	dex	|	Surface gravity from VOSA (BT Settl)	|		|
 |	102	|	Meta_meta	|	dex	|	Metallicity from VOSA (BT Settl)	|		|
@@ -253,7 +260,7 @@ Row-by-row description of `cif20.Mother.v01.csv` available below.
 |	116	|	FeH_lit	|	dex	|	Metallicity from the literature	|		|
 |	117	|	eFeH_lit	|	dex	|	Metallicity error from the literature	|		|
 |	118	|	FeH_lit_ref 	|	-	|	Metallicity reference	|		|
-|	119	|	Binarity	|	-	|	Kind of multiplicity for this object	|	New’ are candidates not tabulated by the WDS; ‘Known’ are binaries tabulated by the WDS; ‘Background’ are candidates for visual binaries without physical binding	|
+|	119	|	Binarity	|	-	|	Kind of multiplicity for this object	|	'New’ are candidates not tabulated by the WDS; ‘Known’ are binaries tabulated by the WDS; ‘Background’ are candidates for visual binaries without physical binding	|
 |	120	|	rho	|	arcsec	|	Angular separation with the closest component in multiple systems	|		|
 |	121	|	theta	|	deg	|	Position angle	|		|
 |	122	|	RUWE	|	-	|	Re-normalised Unit Weight Error	|	See https://www.cosmos.esa.int/web/gaia/dr2-known-issues	|
@@ -336,15 +343,3 @@ Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.
 
 - <a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">Style Guide for Python Code (PEP 8)</a>
 - <a href="https://carmenes.caha.es" target="_blank">CARMENES Website</a>
-
----
-
-## The *CARMENES input catalogue of M dwarfs* series
-
-- <a href="https://www.aanda.org/articles/aa/abs/2020/10/aa38295-20/aa38295-20.html" target="_blank">*CARMENES input catalogue of M dwarfs V. Luminosities, colours, and spectral energy distributions* </a>  Cifuentes et al 2020.
-- <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...621A.126D/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. IV. New rotation periods from photometric time series* </a> Díez Alonso et al. 2019.
-- <a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...614A..76J/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. III. Rotation and activity from high-resolution spectroscopic observations* </a> Jeffers et al. 2018.
-- <a href="https://ui.adsabs.harvard.edu/abs/2017A%26A...597A..47C/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. II. High-resolution imaging with FastCam*</a> Cortés-Contreras et al. 2017.
-- <a href="https://ui.adsabs.harvard.edu/abs/2015A%26A...577A.128A/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. I. Low-resolution spectroscopy with CAFOS*</a> Alonso-Floriano et al. 2015.
-
-
