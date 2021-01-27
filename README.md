@@ -1,11 +1,10 @@
-# CARMENES input catalogue of M dwarfs
-## V. Luminosities, colours, and spectral energy distributions
+# CARMENES input catalogue of M dwarfs V. Luminosities, colours, and spectral energy distributions
   
 > This repository contains the pieces of code necessary to produce all figures, tables and models in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>.
 
 The *CARMENES input catalogue of M dwarfs* series contains:
 
-- <a href="https://www.aanda.org/articles/aa/abs/2020/10/aa38295-20/aa38295-20.html" target="_blank">*CARMENES input catalogue of M dwarfs V. Luminosities, colours, and spectral energy distributions* </a>  **Cifuentes et al 2020** (This work).
+- <a href="https://www.aanda.org/articles/aa/abs/2020/10/aa38295-20/aa38295-20.html" target="_blank">**CARMENES input catalogue of M dwarfs V. Luminosities, colours, and spectral energy distributions** </a>  **Cifuentes et al 2020 (This work)**.
 - <a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...621A.126D/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. IV. New rotation periods from photometric time series* </a> Díez Alonso et al. 2019.
 - <a href="https://ui.adsabs.harvard.edu/abs/2018A%26A...614A..76J/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. III. Rotation and activity from high-resolution spectroscopic observations* </a> Jeffers et al. 2018.
 - <a href="https://ui.adsabs.harvard.edu/abs/2017A%26A...597A..47C/abstract" target="_blank">*CARMENES input catalogue of M dwarfs. II. High-resolution imaging with FastCam*</a> Cortés-Contreras et al. 2017.
