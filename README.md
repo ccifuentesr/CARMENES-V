@@ -6,8 +6,6 @@ The repository contains:
 - Sub-directories: Includes all necessary auxiliary files as detailed below.
 - The **main table** (`cif20.Mother.v01.csv`) [2483 rows, 175 columns] is the full version of Table A.3 (summary table) in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>.
 
-Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.inta-csic.es`</a>.
-
 The *CARMENES input catalogue of M dwarfs* series:
 
 - <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv241212264C/abstract" target="_blank">IX. Multiplicity from close spectroscopic binaries to ultrawide systems</a>  Cifuentes et al 2024.
@@ -27,6 +25,7 @@ The *CARMENES input catalogue of M dwarfs* series:
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/ccifuentesr)
 
 See the <a href="https://carmenes.caha.es" target="_blank">CARMENES Website</a>.
+Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.inta-csic.es`</a>.
 
 ## Directories
 
