@@ -2,9 +2,9 @@
 
 The repository contains:
 
-- Directory ./: Includes all the code files named as `cif03.xxx_***.py`, where `xxx` defines the usage for the particular code ('plot', 'utilities', 'calculator', 'model'). 
-- Directory ./Data: Includes all necessary auxiliary files.
-- The **main table** (`cif03.full_table.csv`) [2634 rows, 132 columns] contains astrometric and photometric data, fundamental parameters, and multiplicity information of all the stars in the sample and their physically bound companions.
+- Directory ./: Includes all the code files named as `cif20.xxx_***.py`, where `xxx` defines the usage for the particular code ('plot', 'utilities', 'calculator', 'model'). 
+- Sub-directories: Includes all necessary auxiliary files as detailed below.
+- The **main table** (`cif20.Mother.v01.csv`) [2483 rows, 175 columns] is the full version of Table A.3 (summary table) in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>.
 
 Reach out to me at <a href="mailto:ccifuentes@cab.inta-csic.es">`ccifuentes@cab.inta-csic.es`</a>.
 
@@ -28,24 +28,15 @@ The *CARMENES input catalogue of M dwarfs* series:
 
 See the <a href="https://carmenes.caha.es" target="_blank">CARMENES Website</a>.
 
-## Mother: the master table
-
-`cif20.Mother.v01.csv` (2483 rows and 175 columns) is the full version of Table A.3 (summary table) in <a href="https://arxiv.org/abs/2007.15077" target="_blank">Cifuentes et al. 2020</a>, available at the CDS via anonymous ftp to cdsarc.u-strasbg.fr(130.79.128.5).
-
 ## Directories
 
-- Directory ./: Includes all the code files classified as detailed below and the master table (`cif20.Mother.v01.csv`). [57 files, 3.1 MB]
 - Directory ./Baraffe: (see <a href="https://ui.adsabs.harvard.edu/abs/2015A%26A...577A..42B/" target="_blank">Baraffe et al. 2015</a>). [7 items, 33 KB]
 - Directory ./Filters: Includes the transmission curves for 20 filters (FUV to W4). [24 items 138 KB]
 - Directory ./Literature: Includes the individual tables with data from the literature. [33 items, 3.9 MB]
 - Directory ./Spectra: Includes PHOENIX synthetic spectra. [1 item, 22 MB]
 - Directory ./Stars: Includes data for individual stars to produce custom SEDs. [4 items, 20 KB]
 
-The total size is 29 MB. If the `./Spectra` directory is not needed (only used in `cif20.plot_SED.py`, see below for more details), the total size shrinks to less than 7 MB.
-
 ## Files
-
-All filenames are formatted as `cif20.xxx_yyy_zzz.py`, where `xxx` defines the kind of output that it produces, `yyy` gives additional information about the output, and `zzz` enumerates the main variables involved.
 
 | File | Description | Input<sup id="a1">[1](#f1)</sup>| Output<sup id="a2">[2](#f2)</sup> | 
 | --- | --- | --- | --- | 
